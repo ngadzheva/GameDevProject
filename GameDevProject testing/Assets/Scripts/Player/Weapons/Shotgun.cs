@@ -8,10 +8,6 @@ public class Shotgun : PlayerGun
     private float lastTimeShoot = 0;
     public int pellets = 3;
     public float distanceInDegrees = 15f;
-    private void Start()
-    {
-        bulletSpawnLocation = transform.GetChild(0);
-    }
 
     override public void Shoot()
     {

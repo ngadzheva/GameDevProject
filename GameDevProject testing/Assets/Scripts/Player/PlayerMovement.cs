@@ -6,7 +6,8 @@ using static Controlls;
 using static AudioManager;
 using static JuiceUIManager;
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour
+{
 
     [SerializeField] private float speed = 30;
     [SerializeField] private float dashSpeed = 0;
@@ -32,22 +33,29 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 lastNonZeroInputDirection = Vector3.right;
     [SerializeField] private Transform playerGraphics = null;
 
-    private void Start() {
+    private bool slowTime = false;
+
+    private void Start()
+    {
         animator = GetComponent<Animator>();
     }
 
-    void Update() {
+    void Update()
+    {
         Move();
         LookAtMouse();
         if (Input.GetKeyDown(dashKey)) { Dash(); }
+        if (Input.GetKeyDown(slowTimeKey)) { SlowTime(); }
     }
 
-    private void Move() {
+    private void Move()
+    {
         transform.position += CalculateVelocity() * speed * Time.deltaTime;
         OnPlayerMove?.Invoke();
     }
 
-    private void LookAtMouse() {
+    private void LookAtMouse()
+    {
         Vector3 screenMousePosition = new Vector3(Input.mousePosition.x,
                                                   Input.mousePosition.y,
                                                   -Camera.main.transform.position.z);
@@ -58,55 +66,85 @@ public class PlayerMovement : MonoBehaviour {
         transform.right = vectorToMouse;
     }
 
-    private void Dash() {
-        if (TweeningOn) {
+    private void Dash()
+    {
+        if (TweeningOn)
+        {
             animator.SetTrigger("IsDashing");
-        } else {
+        }
+        else
+        {
             animator.SetTrigger("IsDashingNoTween");
         }
         PlayDashSound();
         OnPlayerDash?.Invoke();
     }
 
-    private Vector3 CalculateVelocity() {
+    private Vector3 CalculateVelocity()
+    {
         Vector3 inputVelocity = new Vector3(Input.GetAxisRaw("Horizontal"),
                                             Input.GetAxisRaw("Vertical"),
                                             0).normalized;
         playerGraphics.right = inputVelocity;
 
-        if (inputVelocity.magnitude > 0.01f) {
+        if (inputVelocity.magnitude > 0.01f)
+        {
             lastNonZeroInputDirection = inputVelocity;
         }
 
         Vector3 recoilVelocity = Vector3.zero;
-        if (Time.time < recoilEnd) {
+        if (Time.time < recoilEnd)
+        {
             float normalizedTime = (Time.time - recoilStart) / recoilDuration;
-            recoilVelocity = recoilDirection 
-                * recoilIntensity 
+            recoilVelocity = recoilDirection
+                * recoilIntensity
                 * Time.deltaTime
                 * recoilCurve.Evaluate(normalizedTime);
         }
 
-        Vector3 dashVelocity = lastNonZeroInputDirection 
-                             * dashSpeed 
+        Vector3 dashVelocity = lastNonZeroInputDirection
+                             * dashSpeed
                              * Time.deltaTime;
 
         return inputVelocity + recoilVelocity + dashVelocity;
     }
 
-    private void AddRecoil(Vector3 position) {
-        if (RecoilOn) {
+    private void AddRecoil(Vector3 position)
+    {
+        if (RecoilOn)
+        {
             recoilDirection = -transform.right;
             recoilStart = Time.time;
             recoilEnd = recoilStart + recoilDuration;
         }
     }
 
-    private void OnEnable() {
+    private void OnEnable()
+    {
         PlayerGun.OnPlayerShoot += AddRecoil;
     }
 
-    private void OnDisable() {
+    private void OnDisable()
+    {
         PlayerGun.OnPlayerShoot -= AddRecoil;
+    }
+
+    private void SlowTime()
+    {
+        slowTime = !slowTime;
+        if ( slowTime )
+        {
+            Bullet.OnBulletUpdate += SlowBullet;
+        }
+        else
+        {
+            Bullet.OnBulletUpdate -= SlowBullet;
+        }
+    }
+
+    private float SlowBullet(float speed)
+    {
+        speed = speed / 2;
+        return speed;
     }
 }

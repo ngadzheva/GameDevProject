@@ -11,9 +11,14 @@ public class PlayerGun : MonoBehaviour
     [SerializeField] public float shootRecharge = 2;
     [SerializeField] public float bulletLifeInSeconds = 2;
 
-    [SerializeField] public bool listenInput = false;
+    [SerializeField] public bool listenInput = true;
     private float lastTimeShoot = 0;
     public static Action<Vector3> OnPlayerShoot;
+
+    private void Start()
+    {
+        bulletSpawnLocation = transform.Find("Weapon").GetChild(0);
+    }
 
     private void Update()
     {

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Enemy : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float speed = 10;
     [SerializeField] public float shootRecharge = 2;
     private Transform player;
+
+    public static Func<float, float> OnEmenyMove;
 
     void Start()
     {
@@ -25,8 +28,15 @@ public class Enemy : MonoBehaviour
 
     public void MoveToPosition(Vector3 targetPosition)
     {
+        float currSpeed = speed;
+        float? newSpeed = OnEmenyMove?.Invoke(currSpeed);
+        if (newSpeed.HasValue)
+        {
+            currSpeed = newSpeed.Value;
+        }
+
         Vector3 VectorToTarget = (targetPosition - transform.position).normalized;
-        transform.position += VectorToTarget * Time.deltaTime * speed;
+        transform.position += VectorToTarget * Time.deltaTime * currSpeed;
         transform.right = VectorToTarget;
     }
 

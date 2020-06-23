@@ -97,9 +97,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8779559180642315373, guid: e49d8dd9f534c404ab5b3fb68bbf1c16, type: 3}
   bulletSpawnLocation: {fileID: 4568143489207666647}
-  shootRecharge: 0.2
+  shootRecharge: 0.5
   bulletLifeInSeconds: 3
-  lastTimeShoot: 0
+  listenInput: 1
 --- !u!1 &4568143489207666646
 GameObject:
   m_ObjectHideFlags: 0

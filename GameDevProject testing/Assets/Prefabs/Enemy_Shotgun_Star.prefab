@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: distanceInDegrees
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 545631189214894559, guid: e71da77366a62434985d163107599484,
+        type: 3}
+      propertyPath: listenInput
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2261109655531303657, guid: e71da77366a62434985d163107599484,
         type: 3}
       propertyPath: m_LocalPosition.x

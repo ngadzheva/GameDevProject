@@ -2559,7 +2559,7 @@ PrefabInstance:
     - target: {fileID: 6261708508381311969, guid: e2a03b1377b2eda47bd6d065ffdb2526,
         type: 3}
       propertyPath: m_Name
-      value: Shotgun
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 6261708508381311974, guid: e2a03b1377b2eda47bd6d065ffdb2526,
         type: 3}
@@ -2893,7 +2893,7 @@ MonoBehaviour:
   enemy1: {fileID: 2714587122707288949, guid: e9c0a4ca33ab3e34d96c4550a84405c1, type: 3}
   enemy2: {fileID: 2261109655531303659, guid: e71da77366a62434985d163107599484, type: 3}
   enemy3: {fileID: 7934266282044601017, guid: d4cfc0e7e44921341b3bc63178b9a7ee, type: 3}
-  spawnRate: 1
+  spawnRate: 1.28
 --- !u!1 &1256681030
 GameObject:
   m_ObjectHideFlags: 0
@@ -9841,6 +9841,7 @@ GameObject:
   - component: {fileID: 2055920304}
   - component: {fileID: 2055920306}
   - component: {fileID: 2055920307}
+  - component: {fileID: 2055920300}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -9848,6 +9849,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2055920300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055920299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7ab3c3b7ede4243af5e66f0de35993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon1: {fileID: 4568143488146472069, guid: 8385a897f92f44b43b51d850d440af67, type: 3}
+  weapon2: {fileID: 2425464461546813779, guid: e564d799c674d6744b434a4c6a7a22ea, type: 3}
+  weapon3: {fileID: 6261708508381311969, guid: e2a03b1377b2eda47bd6d065ffdb2526, type: 3}
 --- !u!4 &2055920301
 Transform:
   m_ObjectHideFlags: 0

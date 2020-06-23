@@ -6,10 +6,6 @@ using static AudioManager;
 public class Pistol : PlayerGun
 {
     private float lastTimeShoot = 0;
-    private void Start()
-    {
-        bulletSpawnLocation = transform.GetChild(0);
-    }
 
     override public void Shoot()
     {

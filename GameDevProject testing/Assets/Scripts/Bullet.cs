@@ -6,6 +6,7 @@ using static JuiceUIManager;
 using UnityEngine;
 using UnityEditor.UIElements;
 using TMPro;
+using System;
 
 public class Bullet : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class Bullet : MonoBehaviour
     public Vector3 MoveDirection { get; set; } = Vector3.zero;
     private bool hasHit = false;
 
+    public static Func<float,float> OnBulletUpdate;
+
     private void Start()
     {
         hitParticles = transform.GetChild(0).gameObject;
@@ -27,7 +30,13 @@ public class Bullet : MonoBehaviour
 
     private void Update()
     {
-        transform.position += MoveDirection * speed * Time.deltaTime;
+        float currSpeed = speed;
+        float? newSpeed = OnBulletUpdate?.Invoke(currSpeed);
+        if (newSpeed.HasValue)
+        {
+            currSpeed = newSpeed.Value;
+        }
+        transform.position += MoveDirection * currSpeed * Time.deltaTime;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -45,4 +54,6 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject, 1);
         }
     }
+
+    
 }
