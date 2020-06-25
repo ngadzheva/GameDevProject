@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] public float shootRecharge = 2;
     private Transform player;
 
-    public static Func<float, float> OnEmenyMove;
+    public static Func<float> TimeModif;
 
     void Start()
     {
@@ -28,15 +28,15 @@ public class Enemy : MonoBehaviour
 
     public void MoveToPosition(Vector3 targetPosition)
     {
-        float currSpeed = speed;
-        float? newSpeed = OnEmenyMove?.Invoke(currSpeed);
-        if (newSpeed.HasValue)
+        float timeModif = 1f;
+        float? newTineModif = TimeModif?.Invoke();
+        if (newTineModif.HasValue)
         {
-            currSpeed = newSpeed.Value;
+            timeModif = newTineModif.Value;
         }
 
         Vector3 VectorToTarget = (targetPosition - transform.position).normalized;
-        transform.position += VectorToTarget * Time.deltaTime * currSpeed;
+        transform.position += VectorToTarget * Time.deltaTime * speed * timeModif;
         transform.right = VectorToTarget;
     }
 

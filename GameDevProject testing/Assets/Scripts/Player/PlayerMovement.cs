@@ -134,17 +134,24 @@ public class PlayerMovement : MonoBehaviour
         slowTime = !slowTime;
         if ( slowTime )
         {
-            Bullet.OnBulletUpdate += SlowBullet;
+            Bullet.TimeModif += SlowTimeModif;
+            Enemy.TimeModif += SlowTimeModif;
+            PlayerGun.TimeModif += SlowTimeModif;
+            AIMoveNearPlayer.TimeModif += SlowTimeModif;
+            EnemySpawner.TimeModif += SlowTimeModif;
         }
         else
         {
-            Bullet.OnBulletUpdate -= SlowBullet;
+            Bullet.TimeModif -= SlowTimeModif;
+            Enemy.TimeModif -= SlowTimeModif;
+            PlayerGun.TimeModif -= SlowTimeModif;
+            AIMoveNearPlayer.TimeModif -= SlowTimeModif;
+            EnemySpawner.TimeModif -= SlowTimeModif;
         }
     }
 
-    private float SlowBullet(float speed)
+    private float SlowTimeModif()
     {
-        speed = speed / 2;
-        return speed;
+        return 0.25f;
     }
 }

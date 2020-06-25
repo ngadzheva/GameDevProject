@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 
 public class AIMoveNearPlayer : StateMachineBehaviour
 {
@@ -8,6 +9,8 @@ public class AIMoveNearPlayer : StateMachineBehaviour
 	private Transform player;
 	private Enemy enemyController;
 	private float lastTimeShoot = 0;
+
+	public static Func<float> TimeModif;
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 	{
 		GameObject playerGameObject = GameObject.FindWithTag("Player");
@@ -33,8 +36,15 @@ public class AIMoveNearPlayer : StateMachineBehaviour
 			enemyController.MoveToPosition(player.position);
 		}
 
+		float timeModif = 1f;
+		float? newTineModif = TimeModif?.Invoke();
+		if (newTineModif.HasValue)
+		{
+			timeModif = newTineModif.Value;
+		}
+
 		float currTime = Time.time;
-		if (currTime - lastTimeShoot > enemyController.shootRecharge)
+		if (currTime - lastTimeShoot > enemyController.shootRecharge / timeModif)
 		{
 			animator.SetBool("ShouldShoot", true);
 			lastTimeShoot = currTime;

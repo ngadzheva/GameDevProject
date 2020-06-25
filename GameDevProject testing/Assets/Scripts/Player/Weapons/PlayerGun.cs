@@ -15,6 +15,8 @@ public class PlayerGun : MonoBehaviour
     private float lastTimeShoot = 0;
     public static Action<Vector3> OnPlayerShoot;
 
+    public static Func<float> TimeModif;
+
     private void Start()
     {
         bulletSpawnLocation = transform.Find("Weapon").GetChild(0);
@@ -24,8 +26,16 @@ public class PlayerGun : MonoBehaviour
     {
         if ( listenInput && Input.GetKey(fireKey))
         {
+            float timeModif = 1f;
+            float? newTineModif = TimeModif?.Invoke();
+            if (newTineModif.HasValue)
+            {
+                timeModif = newTineModif.Value;
+            }
+
+
             float currTime = Time.time;
-            if (currTime - lastTimeShoot > shootRecharge)
+            if (currTime - lastTimeShoot > shootRecharge / timeModif)
             {
                 Shoot();
                 OnPlayerShoot?.Invoke(bulletSpawnLocation.position);

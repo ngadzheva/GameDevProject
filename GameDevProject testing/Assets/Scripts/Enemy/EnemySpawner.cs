@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class EnemySpawner : MonoBehaviour {
 
@@ -16,6 +17,8 @@ public class EnemySpawner : MonoBehaviour {
 
     private Transform player;
 
+    public static Func<float> TimeModif;
+
     void Start() {
         StartCoroutine(SpawnEnemies());
         player = GameObject.FindWithTag("Player").transform;
@@ -23,10 +26,18 @@ public class EnemySpawner : MonoBehaviour {
 
     private IEnumerator SpawnEnemies() {
         while (true) {
-            yield return new WaitForSeconds(1f / spawnRate);
+
+            float timeModif = 1f;
+            float? newTineModif = TimeModif?.Invoke();
+            if (newTineModif.HasValue)
+            {
+                timeModif = newTineModif.Value;
+            }
+
+            yield return new WaitForSeconds(1f / spawnRate / timeModif);
 
             Vector3 spawnLocation = player.position 
-                + (Vector3)Random.insideUnitCircle.normalized * 50;
+                + (Vector3)UnityEngine.Random.insideUnitCircle.normalized * 50;
             Instantiate(ChooseEnemy(),
                 spawnLocation, 
                 Quaternion.identity);
@@ -37,7 +48,7 @@ public class EnemySpawner : MonoBehaviour {
     {
         GameObject result = enemy1;
 
-        float rand = Random.value;
+        float rand = UnityEngine.Random.value;
         if (rand <= 0.7f) { result = enemy1; }
         else if (rand <= 0.8f) { result = enemy2; }
         else if (rand <= 1.0f) { result = enemy3; }

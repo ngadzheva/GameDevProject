@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
     public Vector3 MoveDirection { get; set; } = Vector3.zero;
     private bool hasHit = false;
 
-    public static Func<float,float> OnBulletUpdate;
+    public static Func<float> TimeModif;
 
     private void Start()
     {
@@ -30,13 +30,13 @@ public class Bullet : MonoBehaviour
 
     private void Update()
     {
-        float currSpeed = speed;
-        float? newSpeed = OnBulletUpdate?.Invoke(currSpeed);
-        if (newSpeed.HasValue)
+        float timeModif = 1f;
+        float? newTineModif = TimeModif?.Invoke();
+        if (newTineModif.HasValue)
         {
-            currSpeed = newSpeed.Value;
+            timeModif = newTineModif.Value;
         }
-        transform.position += MoveDirection * currSpeed * Time.deltaTime;
+        transform.position += MoveDirection * speed * timeModif * Time.deltaTime;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
