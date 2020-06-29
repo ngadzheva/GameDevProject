@@ -15,8 +15,6 @@ public class Health : MonoBehaviour {
   [SerializeField]
   private string tagName = "Bullet";
 
-  private Animator animator;
-
   public Healthbar healthBar;
   public ParticleSystem blood;
 	private Animator animator;
@@ -26,7 +24,7 @@ public class Health : MonoBehaviour {
 
 	void Start() {
 		animator = GetComponent<Animator>();
-    healthBar.SetMaxHealth(hp);
+    healthBar.SetMaxHealth(health);
 	}
 
 	public void Die() {
@@ -40,7 +38,7 @@ public class Health : MonoBehaviour {
 		health = Max(health - damage, 0);
 		animator.SetInteger("Health", health);
 		animator.SetTrigger("TookDamage");
-    healthBar.SetHealth(hp);
+    healthBar.SetHealth(health);
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision) {

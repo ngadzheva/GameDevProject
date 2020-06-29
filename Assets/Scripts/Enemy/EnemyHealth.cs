@@ -29,7 +29,6 @@ public class EnemyHealth : MonoBehaviour {
         hp -= 1;
         animator.SetTrigger("TookDamage");
         animator.SetInteger("Health", hp);
-        healthBar.SetHealth(hp);
         if (hp <= 0) {
             PlayDeathSound();
             ShakeScreenHeavy();
