@@ -9,6 +9,18 @@ public class MovementController : MonoBehaviour {
 	[Range(0, 5)]
 	private float moveSpeed = 2;
 
+	[SerializeField]
+	[Range(0, 2)]
+	private float xScale = 0.5f;
+
+	[SerializeField]
+	[Range(0, 2)]
+	private float yScale = 0.5f;
+	
+	[SerializeField]
+	[Range(0, 2)]
+	private float zScale = 0.5f;
+
 	private readonly float movementThreshold = 0.01f;
 
 	private Vector2 velocity = Vector2.zero;
@@ -66,12 +78,12 @@ public class MovementController : MonoBehaviour {
 
 	private void ResolveLookDirection() {
 		if (Abs(velocity.x) > movementThreshold) {
-			transform.localScale = new Vector3(Sign(velocity.x), 1, 1);
+			transform.localScale = new Vector3(Sign(velocity.x) * xScale, yScale, zScale);
 		}
 	}
 
 	public void TurnTowards(float direction) {
-		transform.localScale = new Vector3(Sign(direction), 1, 1);
+		transform.localScale = new Vector3(Sign(direction) * xScale, yScale, zScale);
 	}
 
 	private void OnCollisionEnter2D(Collision2D collision) {
