@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 using System.Collections;
-using static Controls;
+using static Controlls;
 using static UnityEngine.Mathf;
 
 public class StateMachineUtil : MonoBehaviour {
@@ -13,7 +13,6 @@ public class StateMachineUtil : MonoBehaviour {
 	}
 
 	public static void DoHorizontalMove(Animator animator, MovementController movementController) {
-		Debug.Log("here");
 		float horizontalMoveDirection = Input.GetAxisRaw(HorizontalMovementAxis);
 		movementController.SetHorizontalMoveDirection(horizontalMoveDirection);
 		animator.SetFloat("HorizontalMovement", Abs(horizontalMoveDirection));

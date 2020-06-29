@@ -3,18 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour {
-  private GameObject objectToFollow;
-  public Vector3 cameraOffset;
-  public float smoothSpeed;
+  private Transform player;
+  private Vector3 initialOffset;
 
   void Start() {
-    objectToFollow = GameObject.FindWithTag("Player");
+    player = GameObject.FindWithTag("Player").transform;
+    initialOffset = transform.position - player.position;
   }
 
-  void LateUpdate() {
-    Vector3 desiredPosition = objectToFollow.transform.position + cameraOffset;
-    Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.deltaTime);
-    transform.position = smoothedPosition;
-    transform.LookAt(objectToFollow.transform);
+  private void LateUpdate() {
+    FollowPlayer();
+  }
+
+  private void FollowPlayer() {
+    Vector2 vectorToPlayer = (Vector2)player.position
+                    - (Vector2)transform.position;
+    if (vectorToPlayer.magnitude > 0.01f) {
+      Vector3 targetPosition = (Vector3)vectorToPlayer + initialOffset;
+      transform.position = player.position + initialOffset;
+    }
   }
 }
