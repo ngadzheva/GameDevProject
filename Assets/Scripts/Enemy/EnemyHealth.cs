@@ -28,12 +28,13 @@ public class EnemyHealth : MonoBehaviour {
     protected void TakeDamage() {
         hp -= 1;
         animator.SetTrigger("TookDamage");
+        animator.SetInteger("Health", hp);
+        healthBar.SetHealth(hp);
         if (hp <= 0) {
             PlayDeathSound();
             ShakeScreenHeavy();
             OnEnemyDeath?.Invoke(transform.position);
             Destroy(gameObject);
-            animator.SetBool("IsDying", true);
         }
     }
 }
