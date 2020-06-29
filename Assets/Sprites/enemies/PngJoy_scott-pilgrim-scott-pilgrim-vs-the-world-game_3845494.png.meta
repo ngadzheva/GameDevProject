@@ -1,0 +1,5239 @@
+fileFormatVersion: 2
+guid: 2e8ffe0fd95e3e7468bdcd451348d92b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4573752180751200717
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_0
+  - first:
+      213: 7831204534961270543
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_1
+  - first:
+      213: -620907542586425479
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_2
+  - first:
+      213: 8844593457027951374
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_3
+  - first:
+      213: 7177551686571480101
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_4
+  - first:
+      213: 1265182180735461440
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_5
+  - first:
+      213: -5750719330191251004
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_6
+  - first:
+      213: 5181561609661273186
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_7
+  - first:
+      213: 5993489191644223073
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_8
+  - first:
+      213: -9135919827304624150
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_9
+  - first:
+      213: -7464704343720682531
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_10
+  - first:
+      213: -7699826437923195343
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_11
+  - first:
+      213: 3079606986683539048
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_12
+  - first:
+      213: 3663645600009534248
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_13
+  - first:
+      213: -58039079014866836
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_14
+  - first:
+      213: -3315861511561968226
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_15
+  - first:
+      213: -8530128498077396061
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_16
+  - first:
+      213: 8156526688717649967
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_17
+  - first:
+      213: -6302816866570157040
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_18
+  - first:
+      213: -3629650585569671766
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_19
+  - first:
+      213: 1808447538800397239
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_20
+  - first:
+      213: -519612160037657961
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_21
+  - first:
+      213: -8936666579965076180
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_22
+  - first:
+      213: 1081595457389889677
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_23
+  - first:
+      213: -2635171214242878514
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_24
+  - first:
+      213: 1115996507652844659
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_25
+  - first:
+      213: 5458846512001888873
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_26
+  - first:
+      213: -3257350300705821100
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_27
+  - first:
+      213: -3761802657439020476
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_28
+  - first:
+      213: -5334481532299365148
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_29
+  - first:
+      213: -2340516034526736007
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_30
+  - first:
+      213: 3065938146517068765
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_31
+  - first:
+      213: 6169281840145350438
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_32
+  - first:
+      213: -7740626908157026796
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_33
+  - first:
+      213: 6805554537106504962
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_34
+  - first:
+      213: 9045466475365886896
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_35
+  - first:
+      213: 3488173799861170894
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_36
+  - first:
+      213: -7436901111924018613
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_37
+  - first:
+      213: 488918671252301048
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_38
+  - first:
+      213: -6281749300288490791
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_39
+  - first:
+      213: -1027828702463760150
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_40
+  - first:
+      213: -8518522139820445200
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_41
+  - first:
+      213: 2434974729687997166
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_42
+  - first:
+      213: -4446266262520819912
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_43
+  - first:
+      213: 8166356346506454829
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_44
+  - first:
+      213: 2143865889395315699
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_45
+  - first:
+      213: 5749780883191054143
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_46
+  - first:
+      213: 1965055341335751624
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_47
+  - first:
+      213: -982904726957176055
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_48
+  - first:
+      213: -651302490278706636
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_49
+  - first:
+      213: -6671475289628086229
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_50
+  - first:
+      213: -4662370229949145685
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_51
+  - first:
+      213: 3605419967952495796
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_52
+  - first:
+      213: -8367698428557972649
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_53
+  - first:
+      213: 9185020359124329626
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_54
+  - first:
+      213: 8939869952416397745
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_55
+  - first:
+      213: 3366107031450441069
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_56
+  - first:
+      213: -2515422904013428426
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_57
+  - first:
+      213: -1264353784204707611
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_58
+  - first:
+      213: -2761408767662210872
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_59
+  - first:
+      213: 4484225656502320956
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_60
+  - first:
+      213: 6566006911829166687
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_61
+  - first:
+      213: -6198626424239761693
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_62
+  - first:
+      213: -2293331025562107301
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_63
+  - first:
+      213: -9156187022197111201
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_64
+  - first:
+      213: -458076992047704509
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_65
+  - first:
+      213: 7199264708888527965
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_66
+  - first:
+      213: 7948343919712159206
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_67
+  - first:
+      213: -6687876428839231058
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_68
+  - first:
+      213: 2725103703813751438
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_69
+  - first:
+      213: -5995887903189289674
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_70
+  - first:
+      213: 5477916973972864948
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_71
+  - first:
+      213: -7176696448143189919
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_72
+  - first:
+      213: 5318867581644821978
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_73
+  - first:
+      213: 3453643127634453036
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_74
+  - first:
+      213: 9211615470695962222
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_75
+  - first:
+      213: -1676323451138590338
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_76
+  - first:
+      213: -5342572504566943621
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_77
+  - first:
+      213: 8432053541230259018
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_78
+  - first:
+      213: -2274592176687953650
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_79
+  - first:
+      213: -1141416864985054790
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_80
+  - first:
+      213: -3010141612583444759
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_81
+  - first:
+      213: -8846661879250073652
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_82
+  - first:
+      213: 2039639770484933668
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_83
+  - first:
+      213: -580002892451776774
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_84
+  - first:
+      213: -4956619562374261926
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_85
+  - first:
+      213: -6979996172860696878
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_86
+  - first:
+      213: 2242936627293037620
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_87
+  - first:
+      213: -7084512834259984872
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_88
+  - first:
+      213: 6109498523108195495
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_89
+  - first:
+      213: 8449269479629202524
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_90
+  - first:
+      213: 4970778984381324362
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_91
+  - first:
+      213: -5683389793259561720
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_92
+  - first:
+      213: 4737427520768719886
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_93
+  - first:
+      213: 1663034537849104947
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_94
+  - first:
+      213: -8517970671451361478
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_95
+  - first:
+      213: -2381466532245880873
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_96
+  - first:
+      213: 1429378370368960668
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_97
+  - first:
+      213: 851259445437617538
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_98
+  - first:
+      213: -7634948693912765772
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_99
+  - first:
+      213: -1708183001242955406
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_100
+  - first:
+      213: 2833916832991839788
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_101
+  - first:
+      213: -8537658613576282121
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_102
+  - first:
+      213: 299307815197727812
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_103
+  - first:
+      213: 9176119770592689372
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_104
+  - first:
+      213: 2106348860789721990
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_105
+  - first:
+      213: 4125527459986271339
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_106
+  - first:
+      213: -1450193171641579408
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_107
+  - first:
+      213: 4835129387694862036
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_108
+  - first:
+      213: -6188913161286152368
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_109
+  - first:
+      213: 2584630262986519026
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_110
+  - first:
+      213: -7600774586800017313
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_111
+  - first:
+      213: 8987615230592008212
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_112
+  - first:
+      213: -4136676946216412118
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_113
+  - first:
+      213: 2461142292345856986
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_114
+  - first:
+      213: -252477885322790080
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_115
+  - first:
+      213: 6937312629391176814
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_116
+  - first:
+      213: -6511517061603235267
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_117
+  - first:
+      213: -373207563167405373
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_118
+  - first:
+      213: 7506352736826159670
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_119
+  - first:
+      213: 9029072998088953021
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_120
+  - first:
+      213: 5615094941517359803
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_121
+  - first:
+      213: 5405178288224638778
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_122
+  - first:
+      213: -4261405458895621430
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_123
+  - first:
+      213: 7775845160172969920
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_124
+  - first:
+      213: -9123380609796797336
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_125
+  - first:
+      213: 8845974106835397427
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_126
+  - first:
+      213: -1929566351127932099
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_127
+  - first:
+      213: -513611624452328273
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_128
+  - first:
+      213: 6552932743046628992
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_129
+  - first:
+      213: -4784064422471277736
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_130
+  - first:
+      213: -5397010564573482060
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_131
+  - first:
+      213: -8350248524814544379
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_132
+  - first:
+      213: -4916858692975039355
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_133
+  - first:
+      213: 7905849430057171788
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_134
+  - first:
+      213: -3484272561284030861
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_135
+  - first:
+      213: 2784952735776031240
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_136
+  - first:
+      213: 2139865432964013806
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_137
+  - first:
+      213: -8646354109699629689
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_138
+  - first:
+      213: -6507252629848926487
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_139
+  - first:
+      213: 5546116609952635481
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_140
+  - first:
+      213: 4737026101722938854
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_141
+  - first:
+      213: 4199002135217874574
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_142
+  - first:
+      213: -4042500720892023304
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_143
+  - first:
+      213: -4566662189322111390
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_144
+  - first:
+      213: 5570993427289035132
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_145
+  - first:
+      213: 6523916807963505075
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_146
+  - first:
+      213: 7618201906368162895
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_147
+  - first:
+      213: 6838299128500976118
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_148
+  - first:
+      213: -8915138677696627512
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_149
+  - first:
+      213: -4113637752174259281
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_150
+  - first:
+      213: 545339200960801438
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_151
+  - first:
+      213: 8373730924991156899
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_152
+  - first:
+      213: 1602005288067623602
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_153
+  - first:
+      213: -6812680028343083851
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_154
+  - first:
+      213: 7739698060920808871
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_155
+  - first:
+      213: 8784108342245023323
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_156
+  - first:
+      213: -2483660822191104114
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_157
+  - first:
+      213: -6350142799235108539
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_158
+  - first:
+      213: -2536361553416761361
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_159
+  - first:
+      213: 5574556688567052972
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_160
+  - first:
+      213: 8148867305032443414
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_161
+  - first:
+      213: -7612855391689785936
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_162
+  - first:
+      213: 4238735693810852511
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_163
+  - first:
+      213: -2724625272445851601
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_164
+  - first:
+      213: -1786394009483209974
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_165
+  - first:
+      213: 2768475188636625393
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_166
+  - first:
+      213: -1091366546809753231
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_167
+  - first:
+      213: -6684635372522539162
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_168
+  - first:
+      213: 2452704449409624230
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_169
+  - first:
+      213: 3783008837125475802
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_170
+  - first:
+      213: 5055319544896299696
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_171
+  - first:
+      213: 4572522891303953855
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_172
+  - first:
+      213: 5721507742340361337
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_173
+  - first:
+      213: -4589688175163584772
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_174
+  - first:
+      213: -8922309476145852305
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_175
+  - first:
+      213: -7182522159461484782
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_176
+  - first:
+      213: 7933902490495258977
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_177
+  - first:
+      213: -2732730045277397972
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_178
+  - first:
+      213: 2059980877508386340
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_179
+  - first:
+      213: -1417295148956214705
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_180
+  - first:
+      213: 4240614407546639258
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_181
+  - first:
+      213: 4043408235370446437
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_182
+  - first:
+      213: -9132997325665999095
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_183
+  - first:
+      213: 4587929242658162474
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_184
+  - first:
+      213: 5390458615039293412
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_185
+  - first:
+      213: 1406927866440543205
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_186
+  - first:
+      213: -3715299860600630875
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_187
+  - first:
+      213: -3201058493500962950
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_188
+  - first:
+      213: 8136854818715194119
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_189
+  - first:
+      213: -813018069405949574
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_190
+  - first:
+      213: -2190339459542398285
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_191
+  - first:
+      213: 8036555327832121599
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_192
+  - first:
+      213: -4141031310526502475
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_193
+  - first:
+      213: -3718644649207687654
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_194
+  - first:
+      213: -8085297871276236003
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_195
+  - first:
+      213: -5874243019374628222
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_196
+  - first:
+      213: -3047610565231293660
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_197
+  - first:
+      213: 7030772913476972092
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_198
+  - first:
+      213: -4461360252121305548
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_199
+  - first:
+      213: -7840261208086326868
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_200
+  - first:
+      213: -8714200584706090942
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_201
+  - first:
+      213: -6522322559148326303
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_202
+  - first:
+      213: 4028307489580795884
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_203
+  - first:
+      213: -1535434587790702233
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_204
+  - first:
+      213: 8818785229563421919
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_205
+  - first:
+      213: 3784318988977247800
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_206
+  - first:
+      213: 137127736765138469
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_207
+  - first:
+      213: -746022250130727012
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_208
+  - first:
+      213: -4852688068411683879
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_209
+  - first:
+      213: 1929496687109178134
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_210
+  - first:
+      213: 8985760533706551823
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_211
+  - first:
+      213: -3018935691165521225
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_212
+  - first:
+      213: -2118972137797016231
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_213
+  - first:
+      213: 5231273692241031627
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_214
+  - first:
+      213: 9176070234305409522
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_215
+  - first:
+      213: -7483266329132160187
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_216
+  - first:
+      213: 5928849402214878917
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_217
+  - first:
+      213: 6350865060182022591
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_218
+  - first:
+      213: 7608579097793253719
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_219
+  - first:
+      213: 4326499400018793208
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_220
+  - first:
+      213: 7174245979795204383
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_221
+  - first:
+      213: -9016266519561377789
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_222
+  - first:
+      213: -2318972029725564504
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_223
+  - first:
+      213: 5994822786058116736
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_224
+  - first:
+      213: 4599501130752696121
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_225
+  - first:
+      213: -6137002252738174008
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_226
+  - first:
+      213: 6418594167888588672
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_227
+  - first:
+      213: -1790826728744525718
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_228
+  - first:
+      213: -1768702202362385783
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_229
+  - first:
+      213: 1265348686954465242
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_230
+  - first:
+      213: 4108605130350583558
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_231
+  - first:
+      213: 279903930810733635
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_232
+  - first:
+      213: -6014991695127737084
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_233
+  - first:
+      213: -9188116780111311558
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_234
+  - first:
+      213: 6517619282722138011
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_235
+  - first:
+      213: -6598532190823256661
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_236
+  - first:
+      213: -7332380876869147272
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_237
+  - first:
+      213: 8171322766586263647
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_238
+  - first:
+      213: 6042896131883943354
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_239
+  - first:
+      213: -8184156304039065975
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_240
+  - first:
+      213: -8437057710855715072
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_241
+  - first:
+      213: -5502301063836381043
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_242
+  - first:
+      213: 4870043723374834607
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_243
+  - first:
+      213: 6168175499569378790
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_244
+  - first:
+      213: 1226574006393518822
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_245
+  - first:
+      213: -7249616409358261412
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_246
+  - first:
+      213: 479548660951517783
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_247
+  - first:
+      213: -8225787742489056329
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_248
+  - first:
+      213: -3698754161798800595
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_249
+  - first:
+      213: -8698885399183217967
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_250
+  - first:
+      213: -6499098911648637731
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_251
+  - first:
+      213: -230875892849622703
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_252
+  - first:
+      213: 6279746982141118442
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_253
+  - first:
+      213: 9085146959085330573
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_254
+  - first:
+      213: 8907485944338151658
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_255
+  - first:
+      213: 4538993122756602802
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_256
+  - first:
+      213: 6073277404416763813
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_257
+  - first:
+      213: 4200426060242737001
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_258
+  - first:
+      213: 2836767949840061011
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_259
+  - first:
+      213: 3643231634446533380
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_260
+  - first:
+      213: -9179262040429359486
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_261
+  - first:
+      213: -8934653478166204636
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_262
+  - first:
+      213: 106464752441779732
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_263
+  - first:
+      213: 4382454809759880003
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_264
+  - first:
+      213: 2134996182380018528
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_265
+  - first:
+      213: -9025806455096572743
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_266
+  - first:
+      213: 6784953670592347104
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_267
+  - first:
+      213: 3462631334998356121
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_268
+  - first:
+      213: -2653651194541155745
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_269
+  - first:
+      213: -7542991973154230683
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_270
+  - first:
+      213: 1038001479450468380
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_271
+  - first:
+      213: 2106295402311719421
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_272
+  - first:
+      213: 6915169233059974438
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_273
+  - first:
+      213: 3116826512698327005
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_274
+  - first:
+      213: 5228425369437588785
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_275
+  - first:
+      213: 2852405259290932387
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_276
+  - first:
+      213: 6058608849271596027
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_277
+  - first:
+      213: 3652544860712989901
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_278
+  - first:
+      213: -3710532967412989464
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_279
+  - first:
+      213: 1727619662861048865
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_280
+  - first:
+      213: 404998223872535762
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_281
+  - first:
+      213: 837037187685213857
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_282
+  - first:
+      213: 4474595088425502417
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_283
+  - first:
+      213: 5463732930797585828
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_284
+  - first:
+      213: -1249447893182495230
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_285
+  - first:
+      213: -5834269232256714516
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_286
+  - first:
+      213: -367822932934867721
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_287
+  - first:
+      213: 5525324577544794211
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_288
+  - first:
+      213: -8932489610591257726
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_289
+  - first:
+      213: -6343769354831293970
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_290
+  - first:
+      213: 1402670461727202456
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_291
+  - first:
+      213: -7196309394426230160
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_292
+  - first:
+      213: -6884282217422899002
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_293
+  - first:
+      213: 2494472608266535143
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_294
+  - first:
+      213: -8272002710245920356
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_295
+  - first:
+      213: 5751572711502801725
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_296
+  - first:
+      213: 336693354518790783
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_297
+  - first:
+      213: -678866097750490972
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_298
+  - first:
+      213: 8130172169027096171
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_299
+  - first:
+      213: -6906677230796460685
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_300
+  - first:
+      213: -476264644677707080
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_301
+  - first:
+      213: 8619693824762484416
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_302
+  - first:
+      213: -8754366021650609970
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_303
+  - first:
+      213: -5707136695847713158
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_304
+  - first:
+      213: 5553976358596513207
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_305
+  - first:
+      213: -5695462564779386564
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_306
+  - first:
+      213: -6798714592658937884
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_307
+  - first:
+      213: -8909554020455616728
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_308
+  - first:
+      213: -4377456877066263328
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_309
+  - first:
+      213: -4509552000012222056
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_310
+  - first:
+      213: 671462607151252737
+    second: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_311
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 764
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e08a7df94c680c0800000000000000
+      internalID: -4573752180751200717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 765
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f6bc578070eac60800000000000000
+      internalID: 7831204534961270543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 765
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f76c531e71267f0800000000000000
+      internalID: -620907542586425479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 765
+        width: 55
+        height: 81
+      alignment: 9
+      pivot: {x: 0.51559734, y: 0.4414449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b25e473ee4eba70800000000000000
+      internalID: 8844593457027951374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 765
+        width: 56
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524591b0b39cb9360800000000000000
+      internalID: 7177551686571480101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 765
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04824ea7d74de8110800000000000000
+      internalID: 1265182180735461440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c96af0ec375130b0800000000000000
+      internalID: -5750719330191251004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_7
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26459a5b4da98e740800000000000000
+      internalID: 5181561609661273186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_8
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166d8193aa62d2350800000000000000
+      internalID: 5993489191644223073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_9
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef4f0d3251b63180800000000000000
+      internalID: -9135919827304624150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_10
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb9637f2fa086890800000000000000
+      internalID: -7464704343720682531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_11
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1363d6f66a8b42590800000000000000
+      internalID: -7699826437923195343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_12
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e5519ec36fcba20800000000000000
+      internalID: 3079606986683539048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_13
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bbd7b2342e7d230800000000000000
+      internalID: 3663645600009534248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_14
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c606a30e3cdc13ff0800000000000000
+      internalID: -58039079014866836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_15
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9585fef581bbf1d0800000000000000
+      internalID: -3315861511561968226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_16
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a319a75355ee9980800000000000000
+      internalID: -8530128498077396061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_17
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28320aeecdc13170800000000000000
+      internalID: 8156526688717649967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_18
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014cebf1475e788a0800000000000000
+      internalID: -6302816866570157040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_19
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 762.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5c45ce504e0adc0800000000000000
+      internalID: -3629650585569671766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 682
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb80297475e81910800000000000000
+      internalID: 1808447538800397239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 681
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7926bf35e77f9c8f0800000000000000
+      internalID: -519612160037657961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 683
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d931118159af380800000000000000
+      internalID: -8936666579965076180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_23
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 683
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8886648659920f00800000000000000
+      internalID: 1081595457389889677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 683
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbe7bc0ebdfd6bd0800000000000000
+      internalID: -2635171214242878514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 682
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c693139e0dc7f00800000000000000
+      internalID: 1115996507652844659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_26
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962b04ffaf7b1cb40800000000000000
+      internalID: 5458846512001888873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_27
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eea61e8219bc2d0800000000000000
+      internalID: -3257350300705821100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_28
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a0a38f9646bcbc0800000000000000
+      internalID: -3761802657439020476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_29
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e43a664f4d18f5b0800000000000000
+      internalID: -5334481532299365148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_30
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9719de23111d48fd0800000000000000
+      internalID: -2340516034526736007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_31
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb287e00866c8a20800000000000000
+      internalID: 3065938146517068765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_32
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fb129b521bd9550800000000000000
+      internalID: 6169281840145350438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_33
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e5870b6d4c39490800000000000000
+      internalID: -7740626908157026796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_34
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20df7cb4bcf227e50800000000000000
+      internalID: 6805554537106504962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_35
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb63eb95d3f78d70800000000000000
+      internalID: 9045466475365886896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_36
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2bc8ff69b786030800000000000000
+      internalID: 3488173799861170894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_37
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42bf0257d1dac890800000000000000
+      internalID: -7436901111924018613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_38
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4ac0ce0fcf8c600800000000000000
+      internalID: 488918671252301048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_39
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 678.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2fe342b4eb2d8a0800000000000000
+      internalID: -6281749300288490791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae862b3ad3b6cb1f0800000000000000
+      internalID: -1027828702463760150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_41
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1b3b43f3128c980800000000000000
+      internalID: -8518522139820445200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea1b189d94cac120800000000000000
+      internalID: 2434974729687997166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_43
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f84ad3460bb42c0800000000000000
+      internalID: -4446266262520819912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_44
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2726c674d9b45170800000000000000
+      internalID: 8166356346506454829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_45
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f31c7feaaa80cd10800000000000000
+      internalID: 2143865889395315699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_46
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f3fe6ef335bcf40800000000000000
+      internalID: 5749780883191054143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_47
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb2d40fb67454b10800000000000000
+      internalID: 1965055341335751624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_48
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b4aa5cb550c52f0800000000000000
+      internalID: -982904726957176055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_49
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4324c99f5db16f6f0800000000000000
+      internalID: -651302490278706636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_50
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20fbe132982a63a0800000000000000
+      internalID: -6671475289628086229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_51
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad56886afeeb4fb0800000000000000
+      internalID: -4662370229949145685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_52
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4a8e7cb56090230800000000000000
+      internalID: 3605419967952495796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_53
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b253afc96ffdb80800000000000000
+      internalID: -8367698428557972649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_54
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9426503a5fb77f70800000000000000
+      internalID: 9185020359124329626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_55
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9b7f33b5cc01c70800000000000000
+      internalID: 8939869952416397745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_56
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d655c8db280d6be20800000000000000
+      internalID: 3366107031450441069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_57
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639e562323c671dd0800000000000000
+      internalID: -2515422904013428426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_58
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8be0e9eec147ee0800000000000000
+      internalID: -1264353784204707611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_59
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 594.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c048db3b518da9d0800000000000000
+      internalID: -2761408767662210872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f7384e97b2b3e30800000000000000
+      internalID: 4484225656502320956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a46548f742f1b50800000000000000
+      internalID: 6566006911829166687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_62
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6d6dfdb1e0af9a0800000000000000
+      internalID: -6198626424239761693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_63
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b520df435937c20e0800000000000000
+      internalID: -2293331025562107301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_64
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5646e43a60bee080800000000000000
+      internalID: -9156187022197111201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_65
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3469739176594a9f0800000000000000
+      internalID: -458076992047704509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_66
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d548e410c1de8e360800000000000000
+      internalID: 7199264708888527965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_67
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5441fcea03e4e60800000000000000
+      internalID: 7948343919712159206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_68
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1645562d3ef23a0800000000000000
+      internalID: -6687876428839231058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_69
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e828be1616381d520800000000000000
+      internalID: 2725103703813751438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_70
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635375938b35acca0800000000000000
+      internalID: -5995887903189289674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_71
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf3cbee678750c40800000000000000
+      internalID: 5477916973972864948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_72
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1681e9baa90476c90800000000000000
+      internalID: -7176696448143189919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_73
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5d74b82e960d940800000000000000
+      internalID: 5318867581644821978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_74
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22ee9b502ecdef20800000000000000
+      internalID: 3453643127634453036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_75
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e665352277b36df70800000000000000
+      internalID: 9211615470695962222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_76
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e793a36e3b08cb8e0800000000000000
+      internalID: -1676323451138590338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_77
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70b48efc9e5bd5b0800000000000000
+      internalID: -5342572504566943621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_78
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4baa14550ca40570800000000000000
+      internalID: 8432053541230259018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_79
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 510.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09c1a377760f60e0800000000000000
+      internalID: -2274592176687953650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab10de5a86fd820f0800000000000000
+      internalID: -1141416864985054790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_81
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 445
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee975ad624d936d0800000000000000
+      internalID: -3010141612583444759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_82
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 446
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc74f4774e75a3580800000000000000
+      internalID: -8846661879250073652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_83
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 444
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424838590914e4c10800000000000000
+      internalID: 2039639770484933668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_84
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 444
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af676ba317a63f7f0800000000000000
+      internalID: -580002892451776774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_85
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 446
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a531ee1f4cc863bb0800000000000000
+      internalID: -4956619562374261926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_86
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 448
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d65d0f5672122f90800000000000000
+      internalID: -6979996172860696878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_87
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434a38b9af2802f10800000000000000
+      internalID: 2242936627293037620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_88
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81edc33dc11cead90800000000000000
+      internalID: -7084512834259984872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_89
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac33a9898c49c450800000000000000
+      internalID: 6109498523108195495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_90
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5429d853d5d14570800000000000000
+      internalID: 8449269479629202524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_91
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c96056621cbf440800000000000000
+      internalID: 4970778984381324362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_92
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ddeac481b8021b0800000000000000
+      internalID: -5683389793259561720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_93
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c349cea39beb140800000000000000
+      internalID: 4737427520768719886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_94
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33aa3bdd919441710800000000000000
+      internalID: 1663034537849104947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_95
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f22f0fdc61ac980800000000000000
+      internalID: -8517970671451361478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_96
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfb0057ec453fed0800000000000000
+      internalID: -2381466532245880873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_97
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98f77ffd0c26d310800000000000000
+      internalID: 1429378370368960668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_98
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285510994f740db00800000000000000
+      internalID: 851259445437617538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_99
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 426.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba3ff45d963b0690800000000000000
+      internalID: -7634948693912765772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2719d875c905b48e0800000000000000
+      internalID: -1708183001242955406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_101
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c268a794858145720800000000000000
+      internalID: 2833916832991839788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_102
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff4b34b9b4248980800000000000000
+      internalID: -8537658613576282121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_103
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cdb534fda572400800000000000000
+      internalID: 299307815197727812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_104
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcbd9e6050285f70800000000000000
+      internalID: 9176119770592689372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_105
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b8b6401214b3d10800000000000000
+      internalID: 2106348860789721990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_106
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ce99bed51d04930800000000000000
+      internalID: 4125527459986271339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_107
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0784b9c6ef0efdbe0800000000000000
+      internalID: -1450193171641579408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_108
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deaa9c7f84d91340800000000000000
+      internalID: 4835129387694862036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_109
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f8cc325409c1aa0800000000000000
+      internalID: -6188913161286152368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_110
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1390db7837ed320800000000000000
+      internalID: 2584630262986519026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_111
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50f7ffa8cf948690800000000000000
+      internalID: -7600774586800017313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_112
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410c35d0f6c6abc70800000000000000
+      internalID: 8987615230592008212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_113
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c19360c329796c0800000000000000
+      internalID: -4136676946216412118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_114
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad327fc00ebb72220800000000000000
+      internalID: 2461142292345856986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_115
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b71b373b40f7cf0800000000000000
+      internalID: -252477885322790080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_116
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6431bab419464060800000000000000
+      internalID: 6937312629391176814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_117
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a6e326bb172a5a0800000000000000
+      internalID: -6511517061603235267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_118
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caeae9d2b912daf0800000000000000
+      internalID: -373207563167405373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_119
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 342.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632fd453b0ceb2860800000000000000
+      internalID: 7506352736826159670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcc92ebd06bd4d70800000000000000
+      internalID: 9029072998088953021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba2c396913dced40800000000000000
+      internalID: 5615094941517359803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_122
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a379849e30d030b40800000000000000
+      internalID: 5405178288224638778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_123
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2bd9220527cd4c0800000000000000
+      internalID: -4261405458895621430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_124
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfdc8899f959eb60800000000000000
+      internalID: 7775845160172969920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_125
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c00625cad336180800000000000000
+      internalID: -9123380609796797336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_126
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b2a3a059633ca70800000000000000
+      internalID: 8845974106835397427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_127
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33197e70adc835e0800000000000000
+      internalID: -1929566351127932099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_128
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4f104e2f84fd8f0800000000000000
+      internalID: -513611624452328273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_129
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08602526c91b0fa50800000000000000
+      internalID: 6552932743046628992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_130
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853e30c31c69b9db0800000000000000
+      internalID: -4784064422471277736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_131
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b331917c77f915b0800000000000000
+      internalID: -5397010564573482060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_132
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502133c4535fd1c80800000000000000
+      internalID: -8350248524814544379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_133
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c6e62c11fc3cbb0800000000000000
+      internalID: -4916858692975039355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_134
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b384e6b2837bd60800000000000000
+      internalID: 7905849430057171788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_135
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e5604e09065afc0800000000000000
+      internalID: -3484272561284030861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_136
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802ce2402c326a620800000000000000
+      internalID: 2784952735776031240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_137
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee15f6164452bd10800000000000000
+      internalID: 2139865432964013806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_138
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d5d116fbaf10880800000000000000
+      internalID: -8646354109699629689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_139
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 258.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6d026c53891b5a0800000000000000
+      internalID: -6507252629848926487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 82
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ade131ca3c7fc40800000000000000
+      internalID: 5546116609952635481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_141
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 184
+        width: 82
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edf2f4442c4db140800000000000000
+      internalID: 4737026101722938854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_142
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 184
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86a4c8d13ad54a30800000000000000
+      internalID: 4199002135217874574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_143
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 183
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd68fe230726e7c0800000000000000
+      internalID: -4042500720892023304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_144
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 188
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2667f3c1fe4ff90c0800000000000000
+      internalID: -4566662189322111390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_145
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 184
+        width: 82
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7159977105205d40800000000000000
+      internalID: 5570993427289035132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_146
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b17dda85cb998a50800000000000000
+      internalID: 6523916807963505075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_147
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c2748554a49b960800000000000000
+      internalID: 7618201906368162895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_148
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9f92693d486ee50800000000000000
+      internalID: 6838299128500976118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_149
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccfb886b90174480800000000000000
+      internalID: -8915138677696627512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_150
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa35407624c69e6c0800000000000000
+      internalID: -4113637752174259281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_151
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a2d5b2d1f619700800000000000000
+      internalID: 545339200960801438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_152
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a21dcc09e7753470800000000000000
+      internalID: 8373730924991156899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_153
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba619b52577b3610800000000000000
+      internalID: 1602005288067623602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_154
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc563efb9f7471a0800000000000000
+      internalID: -6812680028343083851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_155
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5e6f5316ee86b60800000000000000
+      internalID: 7739698060920808871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_156
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e5f004ffb67e970800000000000000
+      internalID: 8784108342245023323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_157
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f9eb624a3488dd0800000000000000
+      internalID: -2483660822191104114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_158
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5413692c4c2cfd7a0800000000000000
+      internalID: -6350142799235108539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_159
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 174.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefc2aafa980dccd0800000000000000
+      internalID: -2536361553416761361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa2152e5cdcc5d40800000000000000
+      internalID: 5574556688567052972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_161
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616e04ea3a7961170800000000000000
+      internalID: 8148867305032443414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_162
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdb9eb1b54b95690800000000000000
+      internalID: -7612855391689785936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_163
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f926d5ed7a303da30800000000000000
+      internalID: 4238735693810852511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_164
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2820d910cf203ad0800000000000000
+      internalID: -2724625272445851601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_165
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a031ed3fc147537e0800000000000000
+      internalID: -1786394009483209974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_166
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f92b2c14899b6620800000000000000
+      internalID: 2768475188636625393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_167
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171f8a178efaad0f0800000000000000
+      internalID: -1091366546809753231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_168
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66778cf9b876b33a0800000000000000
+      internalID: -6684635372522539162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_169
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8a416a3b1c90220800000000000000
+      internalID: 2452704449409624230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_170
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add070f7e72ff7430800000000000000
+      internalID: 3783008837125475802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_171
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b222a3875a182640800000000000000
+      internalID: 5055319544896299696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_172
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5a387e75dd47f30800000000000000
+      internalID: 4572522891303953855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_173
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c28d15af0e66f40800000000000000
+      internalID: 5721507742340361337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_174
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe40910ce62e40c0800000000000000
+      internalID: -4589688175163584772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_175
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60993acdc69d2480800000000000000
+      internalID: -8922309476145852305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_176
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2173ded862e825c90800000000000000
+      internalID: -7182522159461484782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_177
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1619e8c8742ea1e60800000000000000
+      internalID: 7933902490495258977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_178
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c1430a084631ad0800000000000000
+      internalID: -2732730045277397972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_179
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 90.3
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e1cff91b5869c10800000000000000
+      internalID: 2059980877508386340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 62
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a94983291c45ce0800000000000000
+      internalID: -1417295148956214705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_181
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 9
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93983ff550b9da30800000000000000
+      internalID: 4240614407546639258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_182
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 9
+        width: 68
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ef42ffd521d1830800000000000000
+      internalID: 4043408235370446437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_183
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 8
+        width: 72
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907e51d2253114180800000000000000
+      internalID: -9132997325665999095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_184
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 8
+        width: 104
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27444b96599baf30800000000000000
+      internalID: 4587929242658162474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_185
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 8
+        width: 139
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e77cddec81ceca40800000000000000
+      internalID: 5390458615039293412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_186
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 6.300003
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb69c7b079668310800000000000000
+      internalID: 1406927866440543205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_187
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 8
+        width: 156
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a157d6167a907cc0800000000000000
+      internalID: -3715299860600630875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_188
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 6.300003
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77c0a5924e8393d0800000000000000
+      internalID: -3201058493500962950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_189
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 0
+        width: 154
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703d172c85aebe070800000000000000
+      internalID: 8136854818715194119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_190
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 6.300003
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71a5199f5497b4f0800000000000000
+      internalID: -813018069405949574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_191
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 0
+        width: 153
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba4470ddd95a91e0800000000000000
+      internalID: -2190339459542398285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_192
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 6.300003
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0e43dbd74978f60800000000000000
+      internalID: 8036555327832121599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_193
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 6
+        width: 153
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b92c4496f91886c0800000000000000
+      internalID: -4141031310526502475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_194
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 6.300003
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16911ec468b46cc0800000000000000
+      internalID: -3718644649207687654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_195
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 8
+        width: 148
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13ab5f7c604bcf80800000000000000
+      internalID: -8085297871276236003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_196
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 6.300003
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2827bd1d81f7a7ea0800000000000000
+      internalID: -5874243019374628222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_197
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 7
+        width: 143
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b49ad7656b4b5d0800000000000000
+      internalID: -3047610565231293660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_198
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 6.300003
+        width: 79.5
+        height: 84.7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eab34d6b2529160800000000000000
+      internalID: 7030772913476972092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PngJoy_scott-pilgrim-scott-pilgrim-vs-the-world-game_3845494_199
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 6
+        width: 138
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e234dec701612c0800000000000000
+      internalID: -4461360252121305548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

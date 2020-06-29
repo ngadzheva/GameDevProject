@@ -1,0 +1,1039 @@
+fileFormatVersion: 2
+guid: 0d78a58b60e0def448f64be00ed80540
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3695383527224186490
+    second: purple-dragon-game-sprites_7814-321_0
+  - first:
+      213: 3263134765077908772
+    second: purple-dragon-game-sprites_7814-321_1
+  - first:
+      213: 8307441048683875270
+    second: purple-dragon-game-sprites_7814-321_2
+  - first:
+      213: 6536081313469369895
+    second: purple-dragon-game-sprites_7814-321_3
+  - first:
+      213: 837876857278191228
+    second: purple-dragon-game-sprites_7814-321_4
+  - first:
+      213: -753761044865753016
+    second: purple-dragon-game-sprites_7814-321_5
+  - first:
+      213: -5859035601971681819
+    second: purple-dragon-game-sprites_7814-321_6
+  - first:
+      213: 3701269841394308256
+    second: purple-dragon-game-sprites_7814-321_7
+  - first:
+      213: -5889271808161338209
+    second: purple-dragon-game-sprites_7814-321_8
+  - first:
+      213: 302884335365281467
+    second: purple-dragon-game-sprites_7814-321_9
+  - first:
+      213: 7358800566209567110
+    second: purple-dragon-game-sprites_7814-321_10
+  - first:
+      213: 1991159427724051278
+    second: purple-dragon-game-sprites_7814-321_11
+  - first:
+      213: 8118225755368698336
+    second: purple-dragon-game-sprites_7814-321_12
+  - first:
+      213: -5478396335911434298
+    second: purple-dragon-game-sprites_7814-321_13
+  - first:
+      213: 2958594716552190100
+    second: purple-dragon-game-sprites_7814-321_14
+  - first:
+      213: -6154748341335539871
+    second: purple-dragon-game-sprites_7814-321_15
+  - first:
+      213: 1257537725572099778
+    second: purple-dragon-game-sprites_7814-321_16
+  - first:
+      213: -1119740301926805686
+    second: purple-dragon-game-sprites_7814-321_17
+  - first:
+      213: -5603126131242017976
+    second: purple-dragon-game-sprites_7814-321_18
+  - first:
+      213: 2591937286786897670
+    second: purple-dragon-game-sprites_7814-321_19
+  - first:
+      213: 7166094904825873687
+    second: purple-dragon-game-sprites_7814-321_20
+  - first:
+      213: -4568662451224271874
+    second: purple-dragon-game-sprites_7814-321_21
+  - first:
+      213: -6918589197133046479
+    second: purple-dragon-game-sprites_7814-321_22
+  - first:
+      213: 4142990986262463338
+    second: purple-dragon-game-sprites_7814-321_23
+  - first:
+      213: -6084758928400003212
+    second: purple-dragon-game-sprites_7814-321_24
+  - first:
+      213: 8622825808302439083
+    second: purple-dragon-game-sprites_7814-321_25
+  - first:
+      213: 4074381748830497311
+    second: purple-dragon-game-sprites_7814-321_26
+  - first:
+      213: 328521268564742644
+    second: purple-dragon-game-sprites_7814-321_27
+  - first:
+      213: 9044760944407549291
+    second: purple-dragon-game-sprites_7814-321_28
+  - first:
+      213: 7830397877566518739
+    second: purple-dragon-game-sprites_7814-321_29
+  - first:
+      213: 3987395351541293475
+    second: purple-dragon-game-sprites_7814-321_30
+  - first:
+      213: -3102720295383671593
+    second: purple-dragon-game-sprites_7814-321_31
+  - first:
+      213: -4187330204241253589
+    second: purple-dragon-game-sprites_7814-321_32
+  - first:
+      213: -3932306674349274864
+    second: purple-dragon-game-sprites_7814-321_33
+  - first:
+      213: 5704574762422293750
+    second: purple-dragon-game-sprites_7814-321_34
+  - first:
+      213: 5656681846834505721
+    second: purple-dragon-game-sprites_7814-321_35
+  - first:
+      213: 3865184339433442430
+    second: purple-dragon-game-sprites_7814-321_36
+  - first:
+      213: 531685843296627743
+    second: purple-dragon-game-sprites_7814-321_37
+  - first:
+      213: 601781622225661526
+    second: purple-dragon-game-sprites_7814-321_38
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 276
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689e8fec24c57bcc0800000000000000
+      internalID: -3695383527224186490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 275
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d42bea7cbf84d20800000000000000
+      internalID: 3263134765077908772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 275
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb0d4b7e95f94370800000000000000
+      internalID: 8307441048683875270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 276
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e09603353d4ba50800000000000000
+      internalID: 6536081313469369895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 281
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76569bff8cb0ab00800000000000000
+      internalID: 837876857278191228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_5
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 277
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840ef33c25a1a85f0800000000000000
+      internalID: -753761044865753016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_6
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 282
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e56c1a992680bea0800000000000000
+      internalID: -5859035601971681819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_7
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 282
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a49c228f4d8d5330800000000000000
+      internalID: 3701269841394308256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 213
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c22d04e7a154ea0800000000000000
+      internalID: -5889271808161338209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 209
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb65a71c2bf043400800000000000000
+      internalID: 302884335365281467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 214
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6895dd95026bf1660800000000000000
+      internalID: 7358800566209567110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_11
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 213
+        width: 63
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4389ac23f402ab10800000000000000
+      internalID: 1991159427724051278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 213
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1bd23ff4bb9a070800000000000000
+      internalID: 8118225755368698336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_13
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 209
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7823bee83d8f3b0800000000000000
+      internalID: -5478396335911434298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 214
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498d07a283a0f0920800000000000000
+      internalID: 2958594716552190100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_15
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 213
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f35c82ef0f59aa0800000000000000
+      internalID: -6154748341335539871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 133
+        width: 124
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cea06016eba37110800000000000000
+      internalID: 1257537725572099778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 131
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fc6f6c022e570f0800000000000000
+      internalID: -1119740301926805686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_18
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 131
+        width: 134
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b5c936872bd32b0800000000000000
+      internalID: -5603126131242017976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 66
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607d50bca3968f320800000000000000
+      internalID: 2591937286786897670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 67
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71502ec2955137360800000000000000
+      internalID: 7166094904825873687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_21
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 66
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3ac18d4b9d890c0800000000000000
+      internalID: -4568662451224271874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_22
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 70
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d970e08cb3cff90800000000000000
+      internalID: -6918589197133046479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_23
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 67
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63c1dbf95cde7930800000000000000
+      internalID: 4142990986262463338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_24
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 61
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fc4d83ef79e8ba0800000000000000
+      internalID: -6084758928400003212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 17
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baaffef036e6aa770800000000000000
+      internalID: 8622825808302439083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_26
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 19
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a60621d9c1b8830800000000000000
+      internalID: 4074381748830497311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_27
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 19
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f156f96a542f8400800000000000000
+      internalID: 328521268564742644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_28
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 17
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b651db16822758d70800000000000000
+      internalID: 9044760944407549291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 25
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d53356e1692bac60800000000000000
+      internalID: 7830397877566518739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_30
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 25
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1a9a332f2165730800000000000000
+      internalID: 3987395351541293475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_31
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 25
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcd24c845ce0f4d0800000000000000
+      internalID: -3102720295383671593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_32
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 26
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bafea5d5d93e5c0800000000000000
+      internalID: -4187330204241253589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_33
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 26
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0198387f9e3ad69c0800000000000000
+      internalID: -3932306674349274864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_34
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 26
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4d6d4b588ba2f40800000000000000
+      internalID: 5704574762422293750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 25
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7a8f75b22908e40800000000000000
+      internalID: 5656681846834505721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_36
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 25
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c45579da4e3a530800000000000000
+      internalID: 3865184339433442430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_37
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 25
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1caccd157de06700800000000000000
+      internalID: 531685843296627743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple-dragon-game-sprites_7814-321_38
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 25
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e6e117235f95800800000000000000
+      internalID: 601781622225661526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
