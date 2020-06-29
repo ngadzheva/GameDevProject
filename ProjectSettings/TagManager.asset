@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fence
   - Obstacles
+  - Fireball
   layers:
   - Default
   - TransparentFX
