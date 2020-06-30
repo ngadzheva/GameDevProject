@@ -105,28 +105,32 @@ public class MovementController : MonoBehaviour
 
   private void OnCollisionEnter2D(Collision2D collision)
   {
-    if (collision.gameObject.CompareTag("Blood"))
+    GameObject other = collision.gameObject;
+
+    if (other.CompareTag("Blood"))
     {
       healthbar.SetValue(5);
     }
-    else if (collision.gameObject.CompareTag("Power"))
+    else if (other.CompareTag("Power"))
     {
       power.SetValue(5);
     }
-    else if (collision.gameObject.CompareTag("Bullet"))
+    else if (other.CompareTag("Bullet"))
     {
       AmmoAdd(AmmoType.pistolAmmo, 5);
       // update UI
     }
-    else if (collision.gameObject.CompareTag("Bullet1"))
+    else if (other.CompareTag("Bullet1"))
     {
       AmmoAdd(AmmoType.rifleAmmo, 5);
       // update UI
     }
-    else if (collision.gameObject.CompareTag("Bullet2"))
+    else if (other.CompareTag("Bullet2"))
     {
       AmmoAdd(AmmoType.shotgunAmmo, 5);
       // update UI
     }
+
+    Destroy(other);
   }
 }
