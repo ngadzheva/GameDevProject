@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         LookAtPlayer();
+        AimAtPlayer();
     }
 
     public void MoveToPosition(Vector3 targetPosition)
@@ -40,7 +41,7 @@ public class Enemy : MonoBehaviour
 
         Vector3 VectorToTarget = (targetPosition - transform.position).normalized;
         transform.position += VectorToTarget * Time.deltaTime * speed * timeModif;
-        transform.right = VectorToTarget;
+        //transform.right = VectorToTarget;
     }
 
     public void Shoot()
@@ -57,7 +58,22 @@ public class Enemy : MonoBehaviour
 
     private void LookAtPlayer()
     {
-        Vector3 vectorToPlayer = (player.position - transform.position).normalized;
-        transform.right = vectorToPlayer;
+        SpriteRenderer spriteRenderer = transform.GetComponent<SpriteRenderer>();
+        if ((player.position - transform.position).normalized.x < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            spriteRenderer.flipX = false;
+        }
+    }
+
+    private void AimAtPlayer()
+    {
+        Transform weaponTransform = transform.Find("Weapon");
+  
+        Vector3 vectorToPlayer = (player.position - weaponTransform.position).normalized;
+        weaponTransform.right = vectorToPlayer;
     }
 }
