@@ -92,13 +92,18 @@ public class MovementController : MonoBehaviour
     velocity.y = amount;
   }
 
-  private void ResolveLookDirection()
-  {
-    if (Abs(velocity.x) > movementThreshold)
+    private void ResolveLookDirection()
     {
-      transform.localScale = new Vector3(Sign(velocity.x) * xScale, yScale, zScale);
+        if (Abs(velocity.x) > movementThreshold)
+        {
+            SpriteRenderer spriteRenderer = transform.GetComponent<SpriteRenderer>();
+            if (velocity.x < 0)
+                spriteRenderer.flipX = true;
+            else
+                spriteRenderer.flipX = false;
+            //transform.localScale = new Vector3(Sign(velocity.x) * xScale, yScale, zScale);
+        }
     }
-  }
 
   public void TurnTowards(float direction)
   {

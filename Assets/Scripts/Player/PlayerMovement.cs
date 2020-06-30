@@ -38,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
     private float slowTimeChargeUseRate = 10f;
     private float slowTimeChargeReplenishRate = 2f;
 
+    private GameObject weapon = null;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -61,14 +63,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void LookAtMouse()
     {
-        // Vector3 screenMousePosition = new Vector3(Input.mousePosition.x,
-        //                                           Input.mousePosition.y,
-        //                                           -Camera.main.transform.position.z);
-        // Vector3 mousePosition = Camera.main.ScreenToWorldPoint(screenMousePosition);
-        // mousePosition.z = 0;
+        weapon = transform.Find("Weapon").gameObject;
+        Vector3 screenMousePosition = new Vector3(Input.mousePosition.x,
+                                                  Input.mousePosition.y,
+                                                  -Camera.main.transform.position.z);
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(screenMousePosition);
+        mousePosition.z = 0;
 
-        // Vector3 vectorToMouse = (mousePosition - transform.position).normalized;
-        // transform.right = vectorToMouse;
+        Vector3 vectorToMouse = ( mousePosition - weapon.transform.position ).normalized;
+        weapon.transform.right =  vectorToMouse;
     }
 
     private void Dash()
