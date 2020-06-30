@@ -34,6 +34,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform playerGraphics = null;
 
     private bool slowTime = false;
+    private float slowTimeCharge = 100f;
+    private float slowTimeChargeUseRate = 10f;
+    private float slowTimeChargeReplenishRate = 2f;
 
     private void Start()
     {
@@ -46,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
         LookAtMouse();
         if (Input.GetKeyDown(dashKey)) { Dash(); }
         if (Input.GetKeyDown(slowTimeKey)) { SlowTime(); }
+
+        SlowTimeChargeHandle();
     }
 
     private void Move()
@@ -153,5 +158,26 @@ public class PlayerMovement : MonoBehaviour
     private float SlowTimeModif()
     {
         return 0.25f;
+    }
+
+    private void SlowTimeChargeHandle()
+    {
+        if ( slowTime && slowTimeCharge > 0 )
+        {
+            slowTimeCharge -= slowTimeChargeUseRate * Time.deltaTime;
+        }
+        else if ( slowTime && slowTimeCharge <= 0 )
+        {
+            SlowTime();
+            slowTimeCharge = 0;
+        }
+        else if ( !slowTime && slowTimeCharge < 100 )
+        {
+            slowTimeCharge += slowTimeChargeReplenishRate * Time.deltaTime;
+        }
+        else if ( !slowTime && slowTimeCharge > 100 )
+        {
+            slowTimeCharge = 100;
+        }
     }
 }
