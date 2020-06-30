@@ -12615,7 +12615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfef3bed3fd9ce145b29ce4a46db22ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 15
   dashSpeed: 0
   recoilDuration: 0.3
   recoilIntensity: 35
@@ -13075,10 +13075,40 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3031913332646375753, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
+        type: 3}
+      propertyPath: m_CellSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031913332646375753, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
+        type: 3}
+      propertyPath: m_CellSize.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3031913332979429434, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031913332979429435, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031913332979429435, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031913333507472581, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031913333507472581, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3031913333507472606, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
         type: 3}

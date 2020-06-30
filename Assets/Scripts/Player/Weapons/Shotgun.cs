@@ -2,6 +2,7 @@
 using System;
 using static Controlls;
 using static AudioManager;
+using static PlayerWeaponInventory;
 
 public class Shotgun : PlayerGun
 {
@@ -9,6 +10,12 @@ public class Shotgun : PlayerGun
     public int pellets = 3;
     public float distanceInDegrees = 15f;
 
+
+    private void Start()
+    {
+        ammoType = AmmoType.shotgunAmmo;
+        bulletSpawnLocation = transform.Find("Weapon").GetChild(0);
+    }
     override public void Shoot()
     {
         float angle = 0;

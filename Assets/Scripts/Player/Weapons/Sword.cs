@@ -2,11 +2,17 @@
 using System;
 using static Controlls;
 using static AudioManager;
+using static PlayerWeaponInventory;
 
 public class Sword : PlayerGun
 {
     private float lastTimeShoot = 0;
 
+    private void Start()
+    {
+        ammoType = AmmoType.rifleAmmo;
+        bulletSpawnLocation = transform.Find("Weapon").GetChild(0);
+    }
 
     override public void Shoot()
     {
