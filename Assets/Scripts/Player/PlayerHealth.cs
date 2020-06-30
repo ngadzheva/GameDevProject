@@ -11,15 +11,24 @@ public class PlayerHealth : MonoBehaviour
   [Range(1, 5)]
   protected int hp = 5;
 
+  [SerializeField]
+	[Range(0.0f, 1.0f)]
+	private float duration = 0.15f;
+
+	[SerializeField]
+	[Range(0.0f, 1.0f)]
+	private float magnitude = 0.1f;
+
   private Animator animator;
 
-  public Healthbar healthBar;
+  public UISlider healthBar;
   public ParticleSystem blood;
+  public ScreenShaker screenShaker;
 
   void Start()
   {
     animator = GetComponent<Animator>();
-    healthBar.SetMaxHealth(hp);
+    healthBar.SetMaxValue(hp);
   }
 
   private void OnTriggerEnter2D(Collider2D collision)
@@ -35,13 +44,13 @@ public class PlayerHealth : MonoBehaviour
     hp -= 1;
     animator.SetTrigger("TookDamage");
     animator.SetInteger("Health", hp);
-    healthBar.SetHealth(hp);
+    healthBar.SetValue(hp);
     PlayEffects();
 
     if (hp <= 0)
     {
       PlayDeathSound();
-      ShakeScreenHeavy();
+      screenShaker.StartShake(duration, magnitude);
       Destroy(gameObject);
     }
   }
@@ -49,6 +58,7 @@ public class PlayerHealth : MonoBehaviour
   private void PlayEffects() {
 		blood.Stop();
 		blood.Play();
-		ShakeScreenLight();
+    PlayHitSound();
+		screenShaker.StartShake(duration, magnitude);
 	}
 }

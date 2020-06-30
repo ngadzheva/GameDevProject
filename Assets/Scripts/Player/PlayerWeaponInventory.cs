@@ -13,9 +13,9 @@ public class PlayerWeaponInventory : MonoBehaviour
     [SerializeField] private GameObject weapon3 = null;
 
 
-    public static int ammo1 = 10;
-    public static int ammo2 = 10;
-    public static int ammo3 = 10;
+    public static int Ammo1 { get; set; } = 10;
+    public static int Ammo2 { get; set; } = 10;
+    public static int Ammo3 { get; set; } = 10;
 
     public enum AmmoType
     {
@@ -27,7 +27,7 @@ public class PlayerWeaponInventory : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     void Update()
@@ -59,15 +59,15 @@ public class PlayerWeaponInventory : MonoBehaviour
         switch (type)
         {
             case AmmoType.pistolAmmo:
-                if (ammo1 > 0)
+                if (Ammo1 > 0)
                     result = true;
                 break;
             case AmmoType.rifleAmmo:
-                if (ammo2 > 0)
+                if (Ammo2 > 0)
                     result = true;
                 break;
             case AmmoType.shotgunAmmo:
-                if (ammo3 > 0)
+                if (Ammo3 > 0)
                     result = true;
                 break;
         }
@@ -80,13 +80,13 @@ public class PlayerWeaponInventory : MonoBehaviour
         switch (type)
         {
             case AmmoType.pistolAmmo:
-                ammo1 -= n;
+                Ammo1 -= n;
                 break;
             case AmmoType.rifleAmmo:
-                ammo2 -= n;
+                Ammo2 -= n;
                 break;
             case AmmoType.shotgunAmmo:
-                ammo3 -= n;
+                Ammo3 -= n;
                 break;
         }
     }
@@ -96,13 +96,13 @@ public class PlayerWeaponInventory : MonoBehaviour
         switch (type)
         {
             case AmmoType.pistolAmmo:
-                ammo1 += n;
+                Ammo1 += n;
                 break;
             case AmmoType.rifleAmmo:
-                ammo2 += n;
+                Ammo2 += n;
                 break;
             case AmmoType.shotgunAmmo:
-                ammo3 += n;
+                Ammo3 += n;
                 break;
         }
     }

@@ -15,7 +15,7 @@ public class Health : MonoBehaviour {
   [SerializeField]
   private string tagName = "Bullet";
 
-  public Healthbar healthBar;
+  public UISlider healthBar;
   public ParticleSystem blood;
 	private Animator animator;
 	public GameObject cross;
@@ -24,12 +24,11 @@ public class Health : MonoBehaviour {
 
 	void Start() {
 		animator = GetComponent<Animator>();
-    healthBar.SetMaxHealth(health);
+    healthBar.SetMaxValue(health);
 	}
 
 	public void Die() {
 		PlayDeathSound();
-    ShakeScreenHeavy();
 		Destroy(gameObject);
 	}
 
@@ -38,7 +37,7 @@ public class Health : MonoBehaviour {
 		health = Max(health - damage, 0);
 		animator.SetInteger("Health", health);
 		animator.SetTrigger("TookDamage");
-    healthBar.SetHealth(health);
+    healthBar.SetValue(health);
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision) {
@@ -53,7 +52,5 @@ public class Health : MonoBehaviour {
 	private void PlayEffects() {
 		blood.Stop();
 		blood.Play();
-
-		ShakeScreenLight();
 	}
 }

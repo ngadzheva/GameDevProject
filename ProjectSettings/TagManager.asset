@@ -6,7 +6,15 @@ TagManager:
   tags:
   - Fence
   - Obstacles
-  - Fireball
+  - Gun
+  - Enemy
+  - Bullet_Enemy
+  - Bullet_Player
+  - Blood
+  - Power
+  - Bullet
+  - Bullet1
+  - Bullet2
   layers:
   - Default
   - TransparentFX

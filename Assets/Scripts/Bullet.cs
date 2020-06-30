@@ -54,7 +54,7 @@ public class Bullet : MonoBehaviour
       MoveDirection = Vector3.zero;
       if (ParticlesOn) { hitParticles.SetActive(true); }
       PlayHitSound();
-      ShakeScreenLight();
+      // ShakeScreenLight();
 
       Destroy(gameObject, 1);
     }

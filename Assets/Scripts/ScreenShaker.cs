@@ -1,65 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static JuiceUIManager;
-using static UnityEngine.Mathf;
 
-[RequireComponent(typeof(Camera))]
 public class ScreenShaker : MonoBehaviour {
+  public IEnumerator Shake(float duration, float magnitude) {
+    Vector3 originalPosition = transform.localPosition;
 
-    [SerializeField] private AnimationCurve shakeCurve = null;
+    float elapsed = 0.0f;
 
-    [SerializeField]
-    [Range(0, 10)]
-    private float lightIntensity = 0.5f;
+    while (elapsed < duration) {
+      float xOffset = Random.Range(-1.0f, 1.0f) * magnitude;
+      float yOffset = Random.Range(-1.0f, 1.0f) * magnitude;
 
-    [SerializeField]
-    [Range(0, 10)]
-    private float heavyIntensity = 2;
+      transform.localPosition = new Vector3(xOffset, yOffset, originalPosition.z);
 
-    [SerializeField]
-    [Range(0, 1)]
-    private float duration = 0.1f;
+      elapsed += Time.deltaTime;
 
-    private static ScreenShaker instance;
-
-    private void Start() {
-        instance = this;
+      yield return null;
     }
 
-    public static void ShakeScreenLight() {
-        ShakeScreen(instance.lightIntensity);
-    }
+    transform.localPosition = originalPosition;
+  }
 
-    public static void ShakeScreenHeavy() {
-        ShakeScreen(instance.heavyIntensity);
-    }
-
-    private static void ShakeScreen(float intensity) {
-        if (ScreenShakeOn) {
-            instance.StopAllCoroutines();
-            instance.StartCoroutine(instance.ShakeScreenCoroutine(intensity));
-        }
-    }
-
-    private IEnumerator ShakeScreenCoroutine(float intensity) {
-        float shakeStart = Time.time;
-        float shakeEnd = shakeStart + duration;
-
-        float noiseSeed = Random.value * 1000;
-        float cameraJiggle = intensity * 10;
-
-        while (Time.time < shakeEnd) {
-            float normalizedTime = (Time.time - shakeStart) / duration;
-            float offsetX = PerlinNoise(noiseSeed + Time.time * cameraJiggle, 0);
-            float offsetY = PerlinNoise(0, noiseSeed + Time.time * cameraJiggle);
-
-            Vector3 offset = new Vector2(offsetX, offsetY) 
-                           * shakeCurve.Evaluate(normalizedTime)
-                           * intensity;
-
-            transform.position = transform.position + offset;
-            yield return null;
-        }
-    }
+  public void StartShake(float duration, float magnitude) {
+    StartCoroutine(Shake(duration, magnitude));
+  }
 }

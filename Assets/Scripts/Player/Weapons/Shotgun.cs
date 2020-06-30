@@ -35,7 +35,7 @@ public class Shotgun : PlayerGun
             {
                 angle = angle - distanceInDegrees * (i + 1);
             }
-            
+
         }
 
     }

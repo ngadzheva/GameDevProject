@@ -2,6 +2,7 @@ using UnityEngine;
 using System;
 using static UnityEngine.Mathf;
 using static Controlls;
+using static PlayerWeaponInventory;
 
 public class MovementController : MonoBehaviour
 {
@@ -10,18 +11,6 @@ public class MovementController : MonoBehaviour
   [Range(0, 5)]
   private float moveSpeed = 2;
 
-  [SerializeField]
-  [Range(0, 10)]
-  private float xScale = 5f;
-
-  [SerializeField]
-  [Range(0, 10)]
-  private float yScale = 5f;
-
-  [SerializeField]
-  [Range(0, 10)]
-  private float zScale = 5f;
-
   private readonly float movementThreshold = 0.01f;
 
   private Vector2 velocity = Vector2.zero;
@@ -29,13 +18,16 @@ public class MovementController : MonoBehaviour
 
   private new Rigidbody2D rigidbody;
   private Animator animator;
-	private Animator weaponAnimator;
+  private Animator weaponAnimator;
+
+  public UISlider healthbar;
+  public UISlider power;
 
   void Start()
   {
     rigidbody = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
-		weaponAnimator = GameObject.FindWithTag("Gun").GetComponent<Animator>();
+    weaponAnimator = GameObject.FindWithTag("Gun").GetComponent<Animator>();
   }
 
   void Update()
@@ -43,10 +35,15 @@ public class MovementController : MonoBehaviour
     ResolveLookDirection();
     Move();
 
+    if (!weaponAnimator)
+    {
+      weaponAnimator = GameObject.FindWithTag("Gun").GetComponent<Animator>();
+    }
+
     if (Input.GetKeyDown(fireKey))
     {
       animator.SetTrigger("ShouldAttack");
-			weaponAnimator.SetTrigger("ShouldAttack");
+      weaponAnimator.SetTrigger("ShouldAttack");
     }
   }
 
@@ -71,7 +68,7 @@ public class MovementController : MonoBehaviour
     float horizontalMoveDirection = Input.GetAxisRaw(HorizontalMovementAxis);
     SetHorizontalMoveDirection(horizontalMoveDirection);
     animator.SetFloat("HorizontalMovement", Abs(horizontalMoveDirection));
-		weaponAnimator.SetTrigger("ShouldWalk");
+    weaponAnimator.SetTrigger("ShouldWalk");
   }
 
   public void DoVerticalMove()
@@ -79,7 +76,7 @@ public class MovementController : MonoBehaviour
     float verticalMoveDirection = Input.GetAxisRaw(VerticalMovementAxis);
     SetVerticalMoveDirection(verticalMoveDirection);
     animator.SetFloat("VerticalMovement", Abs(verticalMoveDirection));
-		weaponAnimator.SetTrigger("ShouldWalk");
+    weaponAnimator.SetTrigger("ShouldWalk");
   }
 
   public void SetHorizontalMoveDirection(float amount)
@@ -92,21 +89,44 @@ public class MovementController : MonoBehaviour
     velocity.y = amount;
   }
 
-    private void ResolveLookDirection()
+  private void ResolveLookDirection()
+  {
+    if (Abs(velocity.x) > movementThreshold)
     {
-        if (Abs(velocity.x) > movementThreshold)
-        {
-            SpriteRenderer spriteRenderer = transform.GetComponent<SpriteRenderer>();
-            if (velocity.x < 0)
-                spriteRenderer.flipX = true;
-            else
-                spriteRenderer.flipX = false;
-            //transform.localScale = new Vector3(Sign(velocity.x) * xScale, yScale, zScale);
-        }
+      SpriteRenderer spriteRenderer = transform.GetComponent<SpriteRenderer>();
+      spriteRenderer.flipX = velocity.x < 0;
     }
+  }
 
   public void TurnTowards(float direction)
   {
-    transform.localScale = new Vector3(Sign(direction) * xScale, yScale, zScale);
+    transform.localScale = new Vector3(Sign(direction), 1, 1);
+  }
+
+  private void OnCollisionEnter2D(Collision2D collision)
+  {
+    if (collision.gameObject.CompareTag("Blood"))
+    {
+      healthbar.SetValue(5);
+    }
+    else if (collision.gameObject.CompareTag("Power"))
+    {
+      power.SetValue(5);
+    }
+    else if (collision.gameObject.CompareTag("Bullet"))
+    {
+      AmmoAdd(AmmoType.pistolAmmo, 5);
+      // update UI
+    }
+    else if (collision.gameObject.CompareTag("Bullet1"))
+    {
+      AmmoAdd(AmmoType.rifleAmmo, 5);
+      // update UI
+    }
+    else if (collision.gameObject.CompareTag("Bullet2"))
+    {
+      AmmoAdd(AmmoType.shotgunAmmo, 5);
+      // update UI
+    }
   }
 }

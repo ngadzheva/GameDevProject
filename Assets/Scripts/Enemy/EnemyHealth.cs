@@ -11,7 +11,16 @@ public class EnemyHealth : MonoBehaviour {
     [Range(1, 5)]
     protected int hp = 3;
 
+    [SerializeField]
+	[Range(0.0f, 1.0f)]
+	private float duration = 0.15f;
+
+	[SerializeField]
+	[Range(0.0f, 1.0f)]
+	private float magnitude = 0.1f;
+
     public static event Action<Vector3> OnEnemyDeath;
+    public ScreenShaker screenShaker;
 
     private Animator animator;
 
@@ -29,9 +38,11 @@ public class EnemyHealth : MonoBehaviour {
         hp -= 1;
         animator.SetTrigger("TookDamage");
         animator.SetInteger("Health", hp);
+        screenShaker.StartShake(duration, magnitude);
+        PlayHitSound();
         if (hp <= 0) {
             PlayDeathSound();
-            ShakeScreenHeavy();
+            screenShaker.StartShake(duration, magnitude);
             OnEnemyDeath?.Invoke(transform.position);
             Destroy(gameObject);
         }

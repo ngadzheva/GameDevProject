@@ -15,20 +15,12 @@ public class AudioManager : MonoBehaviour {
         instance = this;
     }
 
-    private void OnEnable() {
-        JuiceUIManager.OnSoundStateChanged += SwitchMusicOnOrOff;
-    }
-
-    private void OnDisable() {
-        JuiceUIManager.OnSoundStateChanged -= SwitchMusicOnOrOff;
-    }
-
     public static void PlayHitSound() {
-        if (SoundOn) { instance.hitSound.Play(); }
+        instance.hitSound.Play();
     }
 
     public static void PlayGunfireSound() {
-        if (SoundOn) { instance.gunFireSound.Play(); }
+        instance.gunFireSound.Play();
     }
 
     public static void SwitchMusicOnOrOff(bool IsOn) {
@@ -44,6 +36,6 @@ public class AudioManager : MonoBehaviour {
     }
 
     public static void PlayDeathSound() {
-        if (SoundOn) { instance.deathSound.Play(); }
+        instance.deathSound.Play();
     }
 }

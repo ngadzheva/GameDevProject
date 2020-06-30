@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static AudioManager;
 
 public class AIShootPistol : StateMachineBehaviour
 {
@@ -8,5 +9,7 @@ public class AIShootPistol : StateMachineBehaviour
 	{
 		Enemy movementController = animator.GetComponent<Enemy>();
 		movementController.Shoot();
+
+		PlayGunfireSound();
 	}
 }
