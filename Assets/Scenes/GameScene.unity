@@ -5874,7 +5874,7 @@ GameObject:
   - component: {fileID: 967129784}
   - component: {fileID: 967129783}
   m_Layer: 0
-  m_Name: Blob Spawner
+  m_Name: Awards Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5889,14 +5889,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 967129782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aab424ddb3d50944190b0468a3777742, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d807ae0c60135459eb563b6f2eed1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blobs:
-  - {fileID: 5304803966408379669, guid: 29ad993a184c0ec4e8e7bfa297a25aef, type: 3}
-  - {fileID: 5304803966408379669, guid: 754ed2db4ef688a40b29ad9cca10d826, type: 3}
-  - {fileID: 5304803966408379669, guid: 338aef5fb95f2ef4d9012877609377fe, type: 3}
-  - {fileID: 5304803966408379669, guid: 10f610e018adb4d4e9719bf95b71fb04, type: 3}
+  awards:
+  - {fileID: 7987830886755645287, guid: 3dbec013177facc43be32aaa4f8f1572, type: 3}
+  - {fileID: 3486588014377863786, guid: 712ae179ffc23944e838c5bcbb2d3732, type: 3}
+  - {fileID: 2063633013984221305, guid: 610c710d263c0c443ab29d2273e808da, type: 3}
+  - {fileID: 3605541759047118101, guid: 834f311c3d385c144904f77855ff639c, type: 3}
+  - {fileID: 4979770246645950537, guid: 4ba918721126cec4a8e1bd5257c82199, type: 3}
 --- !u!4 &967129784
 Transform:
   m_ObjectHideFlags: 0
