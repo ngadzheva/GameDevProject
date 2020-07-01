@@ -9,7 +9,6 @@ public class EnemyHealth : Health
 {
 
   public static event Action<Vector3> OnEnemyDeath;
-  private bool hasDied = false;
 
   private void Start()
   {
@@ -19,7 +18,7 @@ public class EnemyHealth : Health
 
   private void OnTriggerEnter2D(Collider2D collision)
   {
-    if (!hasDied && collision.CompareTag("Bullet_Player"))
+    if (!animator.GetBool("IsDying") && collision.CompareTag("Bullet_Player"))
     {
       EnemyTakeDamage();
     }
@@ -30,7 +29,6 @@ public class EnemyHealth : Health
     base.TakeDamage();
     if (health <= 0)
     {
-      hasDied = true;
       OnEnemyDeath?.Invoke(transform.position);
     }
   }

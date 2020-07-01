@@ -39,7 +39,7 @@ public class MovementController : MonoBehaviour
     PlayerGun playerGun = transform.Find("Weapon").GetComponent<PlayerGun>();
     playerAmmoType = playerGun.ammoType;
 
-        if (Input.GetKeyDown(fireKey) && HasAmmo(playerAmmoType))
+    if (Input.GetKeyDown(fireKey) && HasAmmo(playerAmmoType) && !animator.GetBool("IsDying"))
     {
       animator.SetTrigger("ShouldAttack");
     }
