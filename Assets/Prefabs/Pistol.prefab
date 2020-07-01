@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4568143488146472066}
   - component: {fileID: 4568143488146472067}
   - component: {fileID: 4568143488146472064}
+  - component: {fileID: 1509446906994726782}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Gun
@@ -100,6 +101,25 @@ MonoBehaviour:
   shootRecharge: 0.5
   bulletLifeInSeconds: 3
   listenInput: 1
+--- !u!95 &1509446906994726782
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568143488146472069}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 01643d72eca49274ebe53472bcfa04d4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4568143489207666646
 GameObject:
   m_ObjectHideFlags: 0

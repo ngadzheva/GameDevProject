@@ -4,85 +4,45 @@ using UnityEngine;
 using static AudioManager;
 using static ScreenShaker;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : Health
 {
-
-  [SerializeField]
-  [Range(1, 10)]
-  protected int hp = 10;
-
-  [SerializeField]
-  [Range(0.0f, 1.0f)]
-  private float duration = 0.15f;
-
-  [SerializeField]
-  [Range(0.0f, 1.0f)]
-  private float magnitude = 0.1f;
-
   private int healthBonus = 2;
   private int maxHealth = 10;
 
-  private Animator animator;
-
   public UISlider healthBar;
-  public ParticleSystem blood;
-  public ScreenShaker screenShaker;
 
   void Start()
   {
+    healthBar.SetMaxValue(health);
     animator = GetComponent<Animator>();
-    healthBar.SetMaxValue(hp);
+    screenShaker = Camera.main.GetComponent<ScreenShaker>();
   }
 
   private void OnTriggerEnter2D(Collider2D collision)
   {
     if (collision.CompareTag("Bullet_Enemy"))
     {
-      TakeDamage();
+      PlayerTakeDamage();
     }
-  }
-  private void OnCollisionEnter2D(Collision2D other)
-  {
-    if (other.gameObject.CompareTag("Blood"))
+    else if (collision.CompareTag("Blood"))
     {
       AddHealth();
-      Destroy(other.gameObject);
+      Destroy(collision.gameObject);
     }
   }
 
-  protected void TakeDamage()
+  protected void PlayerTakeDamage()
   {
-    hp -= 1;
-    animator.SetTrigger("TookDamage");
-    animator.SetInteger("Health", hp);
-    healthBar.SetValue(hp);
-    PlayEffects();
-
-    if (hp <= 0)
-    {
-      PlayDeathSound();
-      screenShaker.StartShake(duration, magnitude);
-    }
-  }
-
-  public void Die() {
-    Destroy(gameObject);
+    base.TakeDamage();
+    healthBar.SetValue(health);
   }
 
   private void AddHealth()
   {
-    if (hp + healthBonus < maxHealth)
+    if (health + healthBonus < maxHealth)
     {
-      hp += healthBonus;
+      health += healthBonus;
     }
-    healthBar.SetValue(hp);
-  }
-
-  private void PlayEffects()
-  {
-    blood.Stop();
-    blood.Play();
-    PlayHitSound();
-    screenShaker.StartShake(duration, magnitude);
+    healthBar.SetValue(health);
   }
 }

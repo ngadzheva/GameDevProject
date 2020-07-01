@@ -6,51 +6,49 @@ using static UnityEngine.Mathf;
 using static AudioManager;
 using static ScreenShaker;
 
-public class Health : MonoBehaviour {
-
-	[SerializeField]
-  [Range(1, 5)]
-	private int health = 5;
+public class Health : MonoBehaviour
+{
 
   [SerializeField]
-  private string tagName = "Bullet";
+  [Range(1, 10)]
+  protected int health = 10;
 
-  public UISlider healthBar;
+  [SerializeField]
+  [Range(0.0f, 1.0f)]
+  protected float duration = 0.15f;
+
+  [SerializeField]
+  [Range(0.0f, 1.0f)]
+  protected float magnitude = 0.1f;
+
+  protected Animator animator;
   public ParticleSystem blood;
-	private Animator animator;
-	public GameObject cross;
+  protected ScreenShaker screenShaker;
 
-  public static event Action<Vector3> OnEnemyDeath;
+  public void Die()
+  {
+    PlayDeathSound();
+    screenShaker.StartShake(duration, magnitude * 5);
 
-	void Start() {
-		animator = GetComponent<Animator>();
-    healthBar.SetMaxValue(health);
-	}
+    Destroy(gameObject);
+  }
 
-	public void Die() {
-		PlayDeathSound();
-		Destroy(gameObject);
-	}
+  protected void TakeDamage()
+  {
+    int damage = 1;
+    health = Max(health - damage, 0);
 
-	public void TakeDamage() {
-		int damage = 1;
-		health = Max(health - damage, 0);
-		animator.SetInteger("Health", health);
-		animator.SetTrigger("TookDamage");
-    healthBar.SetValue(health);
-	}
+    animator.SetInteger("Health", health);
+    animator.SetTrigger("TookDamage");
 
-	private void OnTriggerEnter2D(Collider2D collision) {
-		if (collision.transform.parent != transform
-			&& collision.CompareTag(tagName)) {
+    PlayEffects();
+  }
 
-			TakeDamage();
-			PlayEffects();
-		}
-	}
-
-	private void PlayEffects() {
-		blood.Stop();
-		blood.Play();
-	}
+  private void PlayEffects()
+  {
+    blood.Stop();
+    blood.Play();
+    PlayHitSound();
+    screenShaker.StartShake(duration, magnitude);
+  }
 }

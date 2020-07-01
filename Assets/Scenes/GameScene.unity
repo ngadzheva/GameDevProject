@@ -6225,7 +6225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1140412676
 Transform:
   m_ObjectHideFlags: 0
@@ -11615,7 +11615,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 123.7, y: -11.345}
+  m_AnchoredPosition: {x: 123.69995, y: -11.344971}
   m_SizeDelta: {x: 125.5, y: 24.609985}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1664056932
@@ -12903,7 +12903,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1997001882
 MonoBehaviour:
@@ -13130,12 +13130,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ce7681b67832b04cb6ef4ce26a94a8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 5
+  health: 10
   duration: 0.15
   magnitude: 0.1
-  healthBar: {fileID: 1664056932}
   blood: {fileID: 122823272}
-  screenShaker: {fileID: 1997001882}
+  healthBar: {fileID: 1664056932}
 --- !u!114 &2055920307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13212,6 +13211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  playerAmmoType: 0
 --- !u!1 &2079731736
 GameObject:
   m_ObjectHideFlags: 0
@@ -13467,7 +13467,7 @@ PrefabInstance:
     - target: {fileID: 3031913332646375750, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3031913332646375750, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
         type: 3}

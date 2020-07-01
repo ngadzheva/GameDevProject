@@ -3,6 +3,7 @@ using System;
 using static UnityEngine.Mathf;
 using static Controlls;
 using static PlayerWeaponInventory;
+using static PlayerGun;
 
 public class MovementController : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class MovementController : MonoBehaviour
   private new Rigidbody2D rigidbody;
   private Animator animator;
   private SpriteRenderer spriteRenderer;
-  public static AmmoType ammoType;
+  public AmmoType playerAmmoType;
   private GameObject weapon;
   private Animator weaponAnimator;
   private SpriteRenderer weaponSprite;
@@ -29,6 +30,7 @@ public class MovementController : MonoBehaviour
     rigidbody = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
     spriteRenderer = transform.GetComponent<SpriteRenderer>();
+    playerAmmoType = ammoType;
 
     weapon = GameObject.FindWithTag("Gun");
     weaponAnimator = weapon.GetComponent<Animator>();
@@ -37,7 +39,7 @@ public class MovementController : MonoBehaviour
 
   void Update()
   {
-    if (!weapon)
+    if (!weaponAnimator)
     {
       weapon = GameObject.FindWithTag("Gun");
       weaponAnimator = weapon.GetComponent<Animator>();
@@ -57,7 +59,7 @@ public class MovementController : MonoBehaviour
 
   private void FixedUpdate()
   {
-    if (!weapon)
+    if (!weaponAnimator)
     {
       weapon = GameObject.FindWithTag("Gun");
       weaponAnimator = weapon.GetComponent<Animator>();
@@ -114,7 +116,7 @@ public class MovementController : MonoBehaviour
     }
   }
 
-  private void OnCollisionEnter2D(Collision2D collision)
+  private void OnTriggerEnter2D(Collider2D collision)
   {
     GameObject other = collision.gameObject;
 

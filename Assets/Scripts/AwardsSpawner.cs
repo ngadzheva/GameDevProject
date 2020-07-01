@@ -6,7 +6,7 @@ public class AwardsSpawner : MonoBehaviour {
 
     [SerializeField] private GameObject[] awards = null;
 
-    private void Update() {
+    private void Start() {
         EnemyHealth.OnEnemyDeath += SpawnAward;
     }
 
