@@ -16,12 +16,14 @@ public class Rifle : PlayerGun
 
     override public void Shoot()
     {
+        Vector3 direction = (bulletSpawnLocation.position - transform.position).normalized;
+
         Bullet bulletInstance = Instantiate(bullet,
             bulletSpawnLocation.position,
-            Quaternion.identity).GetComponent<Bullet>();
+            Quaternion.AngleAxis(Vector3.SignedAngle(Vector3.right, direction, Vector3.forward), Vector3.forward)).GetComponent<Bullet>();
         PlayGunfireSound();
 
-        bulletInstance.MoveDirection = (bulletSpawnLocation.position - transform.position).normalized;
+        bulletInstance.MoveDirection = direction;
 
         Destroy(bulletInstance.gameObject, bulletLifeInSeconds);
     }
