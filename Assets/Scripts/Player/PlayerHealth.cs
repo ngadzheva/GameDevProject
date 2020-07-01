@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 using static AudioManager;
 using static ScreenShaker;
 
@@ -10,6 +11,8 @@ public class PlayerHealth : Health
   private int maxHealth = 10;
 
   public UISlider healthBar;
+
+  public static event Action OnPlayerDeath;
 
   void Start()
   {
@@ -35,6 +38,11 @@ public class PlayerHealth : Health
   {
     base.TakeDamage();
     healthBar.SetValue(health);
+
+    if (health <= 0)
+    {
+      OnPlayerDeath?.Invoke();
+    }
   }
 
   private void AddHealth()

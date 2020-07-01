@@ -8,7 +8,7 @@ public class ScoreSystem : MonoBehaviour {
 
     private Animator animator;
     private TextMeshProUGUI scoreText = null;
-    private int score = 0;
+    private static int score = 0;
 
     private void Start() {
         animator = GetComponent<Animator>();
@@ -20,5 +20,9 @@ public class ScoreSystem : MonoBehaviour {
     private void UpdateScoreUI(Vector3 position) {
         score += 5;
         scoreText.text = score.ToString();
+    }
+
+    public static int GetWonScore() {
+        return score;
     }
 }
