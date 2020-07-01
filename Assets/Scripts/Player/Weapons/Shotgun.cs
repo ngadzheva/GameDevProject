@@ -21,9 +21,13 @@ public class Shotgun : PlayerGun
         float angle = 0;
         for ( int i = 0; i < pellets; i++ )
         {
-            Bullet bulletInstance = Instantiate(bullet, bulletSpawnLocation.position, Quaternion.identity).GetComponent<Bullet>();
+            Vector3 direction = Quaternion.AngleAxis(angle, Vector3.forward) * (bulletSpawnLocation.position - transform.position).normalized;
 
-            bulletInstance.MoveDirection = Quaternion.AngleAxis(angle, new Vector3(0, 0, 1)) * (bulletSpawnLocation.position - transform.position).normalized;
+            Bullet bulletInstance = Instantiate(bullet, 
+                bulletSpawnLocation.position,
+                Quaternion.AngleAxis(Vector3.SignedAngle(Vector3.right, direction, Vector3.forward), Vector3.forward)).GetComponent<Bullet>();
+
+            bulletInstance.MoveDirection = direction;
 
             Destroy(bulletInstance.gameObject, bulletLifeInSeconds);
 
