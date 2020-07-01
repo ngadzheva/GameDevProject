@@ -27,7 +27,7 @@ public class EnemyHealth : Health
   protected void EnemyTakeDamage()
   {
     base.TakeDamage();
-    if (health <= 0)
+    if (health == 0)
     {
       OnEnemyDeath?.Invoke(transform.position);
     }

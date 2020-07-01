@@ -12,6 +12,6 @@ public class AwardsSpawner : MonoBehaviour {
 
     public void SpawnAward(Vector3 position) {
         int awardIndex = Random.Range(0, awards.Length);
-        Instantiate(awards[awardIndex], position, Quaternion.Euler(0, 0 , Random.Range(0, 360)));
+        Instantiate(awards[awardIndex], position, Quaternion.Euler(0, 0, 0));
     }
 }
