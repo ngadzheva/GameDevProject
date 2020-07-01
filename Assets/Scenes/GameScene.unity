@@ -316,7 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122823269}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2055920301}
@@ -6224,7 +6224,7 @@ MonoBehaviour:
   enemy1: {fileID: 2714587122707288949, guid: e9c0a4ca33ab3e34d96c4550a84405c1, type: 3}
   enemy2: {fileID: 2261109655531303659, guid: e71da77366a62434985d163107599484, type: 3}
   enemy3: {fileID: 7934266282044601017, guid: d4cfc0e7e44921341b3bc63178b9a7ee, type: 3}
-  spawnRate: 1.28
+  spawnRate: 1
 --- !u!1 &1277702234 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3031913332646375752, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
@@ -12950,7 +12950,7 @@ Transform:
   m_GameObject: {fileID: 2055920299}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1478233403}
   - {fileID: 976849931}
@@ -13084,7 +13084,7 @@ MonoBehaviour:
   magnitude: 0.1
   healthBar: {fileID: 1664056932}
   blood: {fileID: 122823272}
-  screenShaker: {fileID: 0}
+  screenShaker: {fileID: 1997001882}
 --- !u!114 &2055920307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13393,7 +13393,7 @@ PrefabInstance:
     - target: {fileID: 3031913332646375750, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3031913332646375750, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
         type: 3}

@@ -41,7 +41,7 @@ public class Bullet : MonoBehaviour
       timeModif = newTineModif.Value;
     }
     transform.position += MoveDirection * speed * timeModif * Time.deltaTime;
-    transform.localScale = MoveDirection * scale;
+    //transform.localScale = MoveDirection * scale;
   }
 
   private void OnTriggerEnter2D(Collider2D collision)

@@ -7,6 +7,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1292979331863549854, guid: e49d8dd9f534c404ab5b3fb68bbf1c16,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1292979331863549854, guid: e49d8dd9f534c404ab5b3fb68bbf1c16,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1816204474321054817, guid: e49d8dd9f534c404ab5b3fb68bbf1c16,
         type: 3}
       propertyPath: speed
@@ -92,6 +102,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129387332648123129, guid: e49d8dd9f534c404ab5b3fb68bbf1c16,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129387332648123129, guid: e49d8dd9f534c404ab5b3fb68bbf1c16,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8779559180642315373, guid: e49d8dd9f534c404ab5b3fb68bbf1c16,
         type: 3}
