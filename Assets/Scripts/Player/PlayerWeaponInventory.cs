@@ -21,9 +21,9 @@ public class PlayerWeaponInventory : MonoBehaviour
   private static UpdateAmmo ammo3 = null;
 
 
-  public static int Ammo1 { get; set; } = 10;
-  public static int Ammo2 { get; set; } = 10;
-  public static int Ammo3 { get; set; } = 10;
+  public static int Ammo1 { get; set; } = 30;
+  public static int Ammo2 { get; set; } = 30;
+  public static int Ammo3 { get; set; } = 20;
 
   public enum AmmoType
   {
@@ -38,6 +38,10 @@ public class PlayerWeaponInventory : MonoBehaviour
     ammo1 = ammo1Helper;
     ammo2 = ammo2Helper;
     ammo3 = ammo3Helper;
+
+    ammo1.UpdateAmmoUI(Ammo1);
+    ammo2.UpdateAmmoUI(Ammo2);
+    ammo3.UpdateAmmoUI(Ammo3);
   }
 
   void Update()
