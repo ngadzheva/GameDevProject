@@ -27,7 +27,8 @@ public class MovementController : MonoBehaviour
     rigidbody = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
     spriteRenderer = transform.GetComponent<SpriteRenderer>();
-    playerAmmoType = ammoType;
+    PlayerGun playerGun = transform.Find("Weapon").GetComponent<PlayerGun>();
+    playerAmmoType = playerGun.ammoType;
   }
 
   private void FixedUpdate()
@@ -35,7 +36,10 @@ public class MovementController : MonoBehaviour
     ResolveLookDirection();
     Move();
 
-    if (Input.GetKeyDown(fireKey) && HasAmmo(ammoType))
+    PlayerGun playerGun = transform.Find("Weapon").GetComponent<PlayerGun>();
+    playerAmmoType = playerGun.ammoType;
+
+        if (Input.GetKeyDown(fireKey) && HasAmmo(playerAmmoType))
     {
       animator.SetTrigger("ShouldAttack");
     }

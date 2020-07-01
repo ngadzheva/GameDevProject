@@ -15,7 +15,7 @@ public class PlayerGun : MonoBehaviour
     [SerializeField] public bool listenInput = true;
     private float lastTimeShoot = 0;
 
-    public static AmmoType ammoType;
+    public AmmoType ammoType;
     public static Action<Vector3> OnPlayerShoot;
 
     public static Func<float> TimeModif;
