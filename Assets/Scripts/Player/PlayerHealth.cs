@@ -39,10 +39,20 @@ public class PlayerHealth : Health
 
   private void AddHealth()
   {
-    if (health + healthBonus < maxHealth)
+    if (health < maxHealth)
     {
-      health += healthBonus;
+      int newHealth = health + healthBonus;
+
+      if (newHealth <= maxHealth)
+      {
+        health = newHealth;
+      }
+      else
+      {
+        health += (newHealth - maxHealth);
+      }
     }
+
     healthBar.SetValue(health);
     animator.SetInteger("Health", health);
   }
