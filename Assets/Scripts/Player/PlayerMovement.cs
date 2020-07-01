@@ -38,7 +38,17 @@ public class PlayerMovement : MonoBehaviour
     private float slowTimeChargeUseRate = 10f;
     private float slowTimeChargeReplenishRate = 2f;
 
+    [SerializeField]
+    [Range(0, 50)]
+    private float slowTimeBonus = 40f;
+
+    [SerializeField]
+    [Range(0, 100)]
+    private float maxSlowTimeCharge = 100f;
+
     private GameObject weapon = null;
+
+    public UISlider power;
 
     private void Start()
     {
@@ -168,19 +178,37 @@ public class PlayerMovement : MonoBehaviour
         if ( slowTime && slowTimeCharge > 0 )
         {
             slowTimeCharge -= slowTimeChargeUseRate * Time.deltaTime;
+            power.SetValue((int) slowTimeCharge);
         }
         else if ( slowTime && slowTimeCharge <= 0 )
         {
             SlowTime();
             slowTimeCharge = 0;
+            power.SetValue((int) slowTimeCharge);
         }
         else if ( !slowTime && slowTimeCharge < 100 )
         {
             slowTimeCharge += slowTimeChargeReplenishRate * Time.deltaTime;
+            power.SetValue((int) slowTimeCharge);
         }
         else if ( !slowTime && slowTimeCharge > 100 )
         {
             slowTimeCharge = 100;
+            power.SetValue((int) slowTimeCharge);
+        }
+    }
+
+    private void AddSlowTimeCharge() {
+        if (slowTimeCharge + slowTimeBonus < maxSlowTimeCharge) {
+            slowTimeCharge += slowTimeBonus;
+            power.SetValue((int) slowTimeCharge);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        if (other.gameObject.CompareTag("Power")) {
+            AddSlowTimeCharge();
+            Destroy(other.gameObject);
         }
     }
 }

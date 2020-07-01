@@ -7,59 +7,79 @@ using static ScreenShaker;
 public class PlayerHealth : MonoBehaviour
 {
 
-    [SerializeField]
-    [Range(1, 5)]
-    protected int hp = 5;
+  [SerializeField]
+  [Range(1, 10)]
+  protected int hp = 10;
 
-    [SerializeField]
-    [Range(0.0f, 1.0f)]
-    private float duration = 0.15f;
+  [SerializeField]
+  [Range(0.0f, 1.0f)]
+  private float duration = 0.15f;
 
-    [SerializeField]
-    [Range(0.0f, 1.0f)]
-    private float magnitude = 0.1f;
+  [SerializeField]
+  [Range(0.0f, 1.0f)]
+  private float magnitude = 0.1f;
 
-    private Animator animator;
+  private int healthBonus = 2;
+  private int maxHealth = 10;
 
-    public UISlider healthBar;
-    public ParticleSystem blood;
-    public ScreenShaker screenShaker;
+  private Animator animator;
 
-    void Start()
+  public UISlider healthBar;
+  public ParticleSystem blood;
+  public ScreenShaker screenShaker;
+
+  void Start()
+  {
+    animator = GetComponent<Animator>();
+    healthBar.SetMaxValue(hp);
+  }
+
+  private void OnTriggerEnter2D(Collider2D collision)
+  {
+    if (collision.CompareTag("Bullet_Enemy"))
     {
-        animator = GetComponent<Animator>();
-        healthBar.SetMaxValue(hp);
+      TakeDamage();
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
+  }
+  private void OnCollisionEnter2D(Collision2D other)
+  {
+    if (other.gameObject.CompareTag("Blood"))
     {
-        if (collision.CompareTag("Bullet_Enemy"))
-        {
-            TakeDamage();
-        }
+      AddHealth();
+      Destroy(other.gameObject);
     }
+  }
 
-    protected void TakeDamage()
+  protected void TakeDamage()
+  {
+    hp -= 1;
+    animator.SetTrigger("TookDamage");
+    animator.SetInteger("Health", hp);
+    healthBar.SetValue(hp);
+    PlayEffects();
+
+    if (hp <= 0)
     {
-        hp -= 1;
-        animator.SetTrigger("TookDamage");
-        animator.SetInteger("Health", hp);
-        healthBar.SetValue(hp);
-        PlayEffects();
-
-        if (hp <= 0)
-        {
-            PlayDeathSound();
-            screenShaker.StartShake(duration, magnitude);
-            Destroy(gameObject);
-        }
+      PlayDeathSound();
+      screenShaker.StartShake(duration, magnitude);
+      Destroy(gameObject);
     }
+  }
 
-    private void PlayEffects()
+  private void AddHealth()
+  {
+    if (hp + healthBonus < maxHealth)
     {
-        blood.Stop();
-        blood.Play();
-        PlayHitSound();
-        screenShaker.StartShake(duration, magnitude);
+      hp += healthBonus;
     }
+    healthBar.SetValue(hp);
+  }
+
+  private void PlayEffects()
+  {
+    blood.Stop();
+    blood.Play();
+    PlayHitSound();
+    screenShaker.StartShake(duration, magnitude);
+  }
 }
