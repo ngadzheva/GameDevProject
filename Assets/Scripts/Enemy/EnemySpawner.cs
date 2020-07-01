@@ -18,10 +18,12 @@ public class EnemySpawner : MonoBehaviour {
     private Transform player;
 
     public static Func<float> TimeModif;
+    private GameObject spawningArea;
 
     void Start() {
         StartCoroutine(SpawnEnemies());
         player = GameObject.FindWithTag("Player").transform;
+        spawningArea = transform.GetChild(0).gameObject;
     }
 
     private IEnumerator SpawnEnemies() {
@@ -36,8 +38,14 @@ public class EnemySpawner : MonoBehaviour {
 
             yield return new WaitForSeconds(1f / spawnRate / timeModif);
 
-            Vector3 spawnLocation = player.position 
-                + (Vector3)UnityEngine.Random.insideUnitCircle.normalized * 50;
+            //Vector3 spawnLocation = player.position 
+            //    + (Vector3)UnityEngine.Random.insideUnitCircle.normalized * 50;
+
+            RectTransform spawningRect = spawningArea.GetComponent<RectTransform>();
+
+
+            Vector3 spawnLocation = new Vector3 ((UnityEngine.Random.value - 0.5f) * spawningRect.rect.width, (UnityEngine.Random.value - 0.5f) * spawningRect.rect.height, 0f);
+
             Instantiate(ChooseEnemy(),
                 spawnLocation, 
                 Quaternion.identity);
