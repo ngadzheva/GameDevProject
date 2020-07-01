@@ -21,8 +21,6 @@ public class MovementController : MonoBehaviour
   private Animator animator;
   private SpriteRenderer spriteRenderer;
   public AmmoType playerAmmoType;
-  private GameObject weapon;
-  private SpriteRenderer weaponSprite;
 
   void Start()
   {
@@ -30,34 +28,16 @@ public class MovementController : MonoBehaviour
     animator = GetComponent<Animator>();
     spriteRenderer = transform.GetComponent<SpriteRenderer>();
     playerAmmoType = ammoType;
-
-    weapon = GameObject.FindWithTag("Gun");
-    weaponSprite = weapon.transform.GetComponent<SpriteRenderer>();
   }
 
-  void Update()
+  private void FixedUpdate()
   {
-    if (!weaponSprite)
-    {
-      weapon = GameObject.FindWithTag("Gun");
-      weaponSprite = weapon.transform.GetComponent<SpriteRenderer>();
-    }
-
     ResolveLookDirection();
     Move();
 
     if (Input.GetKeyDown(fireKey) && HasAmmo(ammoType))
     {
       animator.SetTrigger("ShouldAttack");
-    }
-  }
-
-  private void FixedUpdate()
-  {
-    if (!weaponSprite)
-    {
-      weapon = GameObject.FindWithTag("Gun");
-      weaponSprite = weapon.transform.GetComponent<SpriteRenderer>();
     }
 
     DoHorizontalMove();
@@ -102,9 +82,7 @@ public class MovementController : MonoBehaviour
   {
     if (Abs(velocity.x) > movementThreshold)
     {
-
       spriteRenderer.flipX = velocity.x < 0;
-      // weaponSprite.flipX = spriteRenderer.flipX;
     }
   }
 

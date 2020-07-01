@@ -49,6 +49,5 @@ public class Health : MonoBehaviour
     blood.Stop();
     blood.Play();
     PlayHitSound();
-    screenShaker.StartShake(duration, magnitude);
   }
 }

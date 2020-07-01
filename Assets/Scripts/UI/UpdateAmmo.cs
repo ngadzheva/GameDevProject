@@ -17,6 +17,6 @@ public class UpdateAmmo : MonoBehaviour
   }
 
   public void UpdateAmmoUI(int ammo) {
-    scoreText.text = ammo.ToString();
+    scoreText.text = ammo < 10 ? "0" + ammo.ToString() : ammo.ToString();
   }
 }

@@ -49,6 +49,6 @@ public class PlayerGun : MonoBehaviour
         }
     }
     virtual public void Shoot()
-    { 
+    {
     }
 }

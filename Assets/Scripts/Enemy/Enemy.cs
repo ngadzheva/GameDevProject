@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
     //bulletInstance.MoveDirection = (bulletSpawnLocation.position - transform.position).normalized;
 
     //Destroy(bulletInstance.gameObject, 3);
-    gun.Shoot();
+    // gun.Shoot();
   }
 
   private void LookAtPlayer()

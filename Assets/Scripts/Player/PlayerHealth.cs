@@ -44,5 +44,6 @@ public class PlayerHealth : Health
       health += healthBonus;
     }
     healthBar.SetValue(health);
+    animator.SetInteger("Health", health);
   }
 }

@@ -14,25 +14,11 @@ public class ScoreSystem : MonoBehaviour {
         animator = GetComponent<Animator>();
         scoreText = GetComponent<TextMeshProUGUI>();
         scoreText.text = score.ToString();
-    }
-
-    private void OnEnable() {
         EnemyHealth.OnEnemyDeath += UpdateScoreUI;
-        JuiceUIManager.OnRewardStateChanged += SetScoreEnabledState;
-    }
-
-    private void OnDisable() {
-        EnemyHealth.OnEnemyDeath -= UpdateScoreUI;
-        JuiceUIManager.OnRewardStateChanged -= SetScoreEnabledState;
-    }
-
-    private void SetScoreEnabledState(bool isEnabled) {
-        scoreText.enabled = isEnabled;
     }
 
     private void UpdateScoreUI(Vector3 position) {
-        score += 10;
+        score += 5;
         scoreText.text = score.ToString();
-        animator.SetTrigger("HasScored");
     }
 }
