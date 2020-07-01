@@ -19,7 +19,7 @@ public class EnemyHealth : Health
 
   private void OnTriggerEnter2D(Collider2D collision)
   {
-    if (collision.CompareTag("Bullet_Player"))
+    if (!hasDied && collision.CompareTag("Bullet_Player"))
     {
       EnemyTakeDamage();
     }
@@ -28,7 +28,7 @@ public class EnemyHealth : Health
   protected void EnemyTakeDamage()
   {
     base.TakeDamage();
-    if (health <= 0 && !hasDied)
+    if (health <= 0)
     {
       hasDied = true;
       OnEnemyDeath?.Invoke(transform.position);
