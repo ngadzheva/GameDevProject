@@ -22,7 +22,6 @@ public class MovementController : MonoBehaviour
   private SpriteRenderer spriteRenderer;
   public AmmoType playerAmmoType;
   private GameObject weapon;
-  private Animator weaponAnimator;
   private SpriteRenderer weaponSprite;
 
   void Start()
@@ -33,16 +32,14 @@ public class MovementController : MonoBehaviour
     playerAmmoType = ammoType;
 
     weapon = GameObject.FindWithTag("Gun");
-    weaponAnimator = weapon.GetComponent<Animator>();
     weaponSprite = weapon.transform.GetComponent<SpriteRenderer>();
   }
 
   void Update()
   {
-    if (!weaponAnimator)
+    if (!weaponSprite)
     {
       weapon = GameObject.FindWithTag("Gun");
-      weaponAnimator = weapon.GetComponent<Animator>();
       weaponSprite = weapon.transform.GetComponent<SpriteRenderer>();
     }
 
@@ -51,18 +48,15 @@ public class MovementController : MonoBehaviour
 
     if (Input.GetKeyDown(fireKey) && HasAmmo(ammoType))
     {
-      Debug.Log(ammoType);
       animator.SetTrigger("ShouldAttack");
-      weaponAnimator.SetTrigger("ShouldAttack");
     }
   }
 
   private void FixedUpdate()
   {
-    if (!weaponAnimator)
+    if (!weaponSprite)
     {
       weapon = GameObject.FindWithTag("Gun");
-      weaponAnimator = weapon.GetComponent<Animator>();
       weaponSprite = weapon.transform.GetComponent<SpriteRenderer>();
     }
 
@@ -85,7 +79,6 @@ public class MovementController : MonoBehaviour
     float horizontalMoveDirection = Input.GetAxisRaw(HorizontalMovementAxis);
     SetHorizontalMoveDirection(horizontalMoveDirection);
     animator.SetFloat("HorizontalMovement", Abs(horizontalMoveDirection));
-    weaponAnimator.SetFloat("HorizontalMovement", Abs(horizontalMoveDirection));
   }
 
   public void DoVerticalMove()
@@ -93,7 +86,6 @@ public class MovementController : MonoBehaviour
     float verticalMoveDirection = Input.GetAxisRaw(VerticalMovementAxis);
     SetVerticalMoveDirection(verticalMoveDirection);
     animator.SetFloat("VerticalMovement", Abs(verticalMoveDirection));
-    weaponAnimator.SetFloat("VerticalMovement", Abs(verticalMoveDirection));
   }
 
   public void SetHorizontalMoveDirection(float amount)
@@ -112,7 +104,7 @@ public class MovementController : MonoBehaviour
     {
 
       spriteRenderer.flipX = velocity.x < 0;
-      weaponSprite.flipX = velocity.x < 0;
+      // weaponSprite.flipX = spriteRenderer.flipX;
     }
   }
 

@@ -4,7 +4,7 @@ using static Controlls;
 using static AudioManager;
 using static PlayerWeaponInventory;
 
-public class Sword : PlayerGun
+public class Rifle : PlayerGun
 {
     private float lastTimeShoot = 0;
 
