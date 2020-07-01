@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: fbb98615f43f06b479717d629ebfe3f3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4104974006852093881
+    second: SNinja_skill 7_0
+  - first:
+      213: 2230597161882512698
+    second: SNinja_skill 7_1
+  - first:
+      213: -5417442291512314342
+    second: SNinja_skill 7_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -120,7 +129,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SNinja_skill 7_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 33
+        width: 127
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d600fec4ca4fe10800000000000000
+      internalID: 2230597161882512698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNinja_skill 7_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 71
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16fa3f40f061d4b0800000000000000
+      internalID: -5417442291512314342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
