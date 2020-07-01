@@ -12,6 +12,14 @@ public class PlayerWeaponInventory : MonoBehaviour
     [SerializeField] private GameObject weapon2 = null;
     [SerializeField] private GameObject weapon3 = null;
 
+    [SerializeField] private UpdateAmmo ammo1Helper = null;
+    [SerializeField] private UpdateAmmo ammo2Helper = null;
+    [SerializeField] private UpdateAmmo ammo3Helper = null;
+
+    private static UpdateAmmo ammo1 = null;
+    private static UpdateAmmo ammo2 = null;
+    private static UpdateAmmo ammo3 = null;
+
 
     public static int Ammo1 { get; set; } = 10;
     public static int Ammo2 { get; set; } = 10;
@@ -27,7 +35,9 @@ public class PlayerWeaponInventory : MonoBehaviour
 
     void Start()
     {
-
+        ammo1 = ammo1Helper;
+        ammo2 = ammo2Helper;
+        ammo3 = ammo3Helper;
     }
 
     void Update()
@@ -81,12 +91,15 @@ public class PlayerWeaponInventory : MonoBehaviour
         {
             case AmmoType.pistolAmmo:
                 Ammo1 -= n;
+                ammo1.UpdateAmmoUI(Ammo1);
                 break;
             case AmmoType.rifleAmmo:
                 Ammo2 -= n;
+                ammo2.UpdateAmmoUI(Ammo2);
                 break;
             case AmmoType.shotgunAmmo:
                 Ammo3 -= n;
+                ammo3.UpdateAmmoUI(Ammo3);
                 break;
         }
     }
@@ -97,12 +110,15 @@ public class PlayerWeaponInventory : MonoBehaviour
         {
             case AmmoType.pistolAmmo:
                 Ammo1 += n;
+                ammo1.UpdateAmmoUI(Ammo1);
                 break;
             case AmmoType.rifleAmmo:
                 Ammo2 += n;
+                ammo2.UpdateAmmoUI(Ammo2);
                 break;
             case AmmoType.shotgunAmmo:
                 Ammo3 += n;
+                ammo3.UpdateAmmoUI(Ammo3);
                 break;
         }
     }
