@@ -19,7 +19,7 @@ public class MovementController : MonoBehaviour
   private new Rigidbody2D rigidbody;
   private Animator animator;
   private SpriteRenderer spriteRenderer;
-
+  public static AmmoType ammoType;
   private GameObject weapon;
   private Animator weaponAnimator;
   private SpriteRenderer weaponSprite;
@@ -47,8 +47,9 @@ public class MovementController : MonoBehaviour
     ResolveLookDirection();
     Move();
 
-    if (Input.GetKeyDown(fireKey))
+    if (Input.GetKeyDown(fireKey) && HasAmmo(ammoType))
     {
+      Debug.Log(ammoType);
       animator.SetTrigger("ShouldAttack");
       weaponAnimator.SetTrigger("ShouldAttack");
     }

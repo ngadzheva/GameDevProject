@@ -13519,6 +13519,11 @@ PrefabInstance:
       propertyPath: m_CellSize.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3031913332979429428, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3031913332979429434, guid: 25caeb2653c5bc24d840a0e9f4b6b579,
         type: 3}
       propertyPath: m_IsActive

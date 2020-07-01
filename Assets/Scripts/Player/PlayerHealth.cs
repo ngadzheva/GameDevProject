@@ -62,8 +62,11 @@ public class PlayerHealth : MonoBehaviour
     {
       PlayDeathSound();
       screenShaker.StartShake(duration, magnitude);
-      Destroy(gameObject);
     }
+  }
+
+  public void Die() {
+    Destroy(gameObject);
   }
 
   private void AddHealth()

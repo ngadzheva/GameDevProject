@@ -6,5 +6,6 @@ public class DieState : StateMachineBehaviour {
 		animator.SetBool("IsDying", true);
 		animator.GetComponent<MovementController>().SetHorizontalMoveDirection(0);
 		PlayDeathSound();
+		animator.GetComponent<PlayerHealth>().Die();
 	}
 }
