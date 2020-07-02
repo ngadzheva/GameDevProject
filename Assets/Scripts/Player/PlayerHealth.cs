@@ -38,11 +38,6 @@ public class PlayerHealth : Health
   {
     base.TakeDamage();
     healthBar.SetValue(health);
-
-    if (health <= 0)
-    {
-      OnPlayerDeath?.Invoke();
-    }
   }
 
   private void AddHealth()

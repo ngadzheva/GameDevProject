@@ -50,4 +50,10 @@ public class Health : MonoBehaviour
     blood.Play();
     PlayHitSound();
   }
+
+  public void OnDestroy() {
+    if (gameObject.name == "Player") {
+      GameManager.Instance.StartCoroutine("EndGame");
+    }
+  }
 }
