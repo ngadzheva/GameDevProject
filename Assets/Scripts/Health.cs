@@ -30,7 +30,7 @@ public class Health : MonoBehaviour
     PlayDeathSound();
     screenShaker.StartShake(duration, magnitude * 5);
 
-    Destroy(gameObject);
+    Destroy(gameObject, 1);
   }
 
   protected void TakeDamage()
