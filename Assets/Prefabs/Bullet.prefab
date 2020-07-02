@@ -9680,12 +9680,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f97c1b7f15975954dac7e916f6862b94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitParticles: {fileID: 1696152571233620611}
-  trailParticles: {fileID: 7033711688619935539}
   speed: 50
   damagePlayer: 0
   damageEnemy: 1
-  scale: 1
 --- !u!95 &2633488300795607262
 Animator:
   serializedVersion: 3

@@ -11,11 +11,19 @@ public class MovementController : MonoBehaviour
   [SerializeField]
   [Range(0, 5)]
   private float moveSpeed = 2;
+  [SerializeField] private float speed = 30;
 
   private readonly float movementThreshold = 0.01f;
 
   private Vector2 velocity = Vector2.zero;
   public Vector2 Velocity { get => velocity; }
+
+  public static event Action OnPlayerMove;
+
+  private Vector3 lastNonZeroInputDirection = Vector3.right;
+  [SerializeField] private Transform playerGraphics = null;
+
+  private GameObject weapon = null;
 
   private new Rigidbody2D rigidbody;
   private Animator animator;
@@ -35,6 +43,7 @@ public class MovementController : MonoBehaviour
   {
     ResolveLookDirection();
     Move();
+    LookAtMouse();
 
     PlayerGun playerGun = transform.Find("Weapon").GetComponent<PlayerGun>();
     playerAmmoType = playerGun.ammoType;
@@ -56,6 +65,9 @@ public class MovementController : MonoBehaviour
       y = velocity.y * moveSpeed
     } * Time.deltaTime + rigidbody.position;
     rigidbody.MovePosition(newPosition);
+
+    transform.position += CalculateVelocity() * speed * Time.deltaTime;
+    OnPlayerMove?.Invoke();
   }
 
   public void DoHorizontalMove()
@@ -88,6 +100,29 @@ public class MovementController : MonoBehaviour
     {
       spriteRenderer.flipX = velocity.x < 0;
     }
+  }
+
+  private void LookAtMouse()
+  {
+    weapon = transform.Find("Weapon").gameObject;
+    Vector3 screenMousePosition = new Vector3(Input.mousePosition.x,
+                                              Input.mousePosition.y,
+                                              -Camera.main.transform.position.z);
+    Vector3 mousePosition = Camera.main.ScreenToWorldPoint(screenMousePosition);
+    mousePosition.z = 0;
+
+    Vector3 vectorToMouse = (mousePosition - weapon.transform.position).normalized;
+    weapon.transform.right = vectorToMouse;
+  }
+
+  private Vector3 CalculateVelocity()
+  {
+    Vector3 inputVelocity = new Vector3(Input.GetAxisRaw("Horizontal"),
+                                        Input.GetAxisRaw("Vertical"),
+                                        0).normalized;
+    playerGraphics.right = inputVelocity;
+
+    return inputVelocity;
   }
 
   private void OnTriggerEnter2D(Collider2D collision)
