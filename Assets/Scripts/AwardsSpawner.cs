@@ -6,7 +6,6 @@ public class AwardsSpawner : MonoBehaviour
 {
 
   [SerializeField] private GameObject[] awards = null;
-  private bool spawnedAward = false;
 
   private void Start()
   {
@@ -16,10 +15,6 @@ public class AwardsSpawner : MonoBehaviour
   public void SpawnAward(Vector3 position)
   {
     int awardIndex = Random.Range(0, awards.Length);
-    if (!spawnedAward)
-    {
-      Instantiate(awards[awardIndex], position, Quaternion.Euler(0, 0, 0));
-      spawnedAward = true;
-    }
+    Instantiate(awards[awardIndex], position, Quaternion.Euler(0, 0, 0));
   }
 }

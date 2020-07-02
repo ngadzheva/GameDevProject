@@ -9,6 +9,8 @@ public class EnemyHealth : Health
 {
 
   public static event Action<Vector3> OnEnemyDeath;
+  public static event Action OnEnemyDeathPoints;
+  private bool enemyDeathInvoked = false;
 
   private void Start()
   {
@@ -27,9 +29,11 @@ public class EnemyHealth : Health
   protected void EnemyTakeDamage()
   {
     base.TakeDamage();
-    if (health <= 0)
+    if (health <= 0 && !enemyDeathInvoked)
     {
       OnEnemyDeath?.Invoke(transform.position);
+      OnEnemyDeathPoints?.Invoke();
+      enemyDeathInvoked = true;
     }
   }
 }

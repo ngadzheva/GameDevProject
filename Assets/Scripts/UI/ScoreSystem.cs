@@ -16,10 +16,10 @@ public class ScoreSystem : MonoBehaviour
     animator = GetComponent<Animator>();
     scoreText = GetComponent<TextMeshProUGUI>();
     scoreText.text = score.ToString();
-    EnemyHealth.OnEnemyDeath += UpdateScoreUI;
+    EnemyHealth.OnEnemyDeathPoints += UpdateScoreUI;
   }
 
-  private void UpdateScoreUI(Vector3 position)
+  private void UpdateScoreUI()
   {
     score += 5;
     scoreText.text = score.ToString();
