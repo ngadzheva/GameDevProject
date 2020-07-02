@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using static AudioManager;
-using static ScreenShaker;
 using static JuiceUIManager;
 using UnityEngine;
 using UnityEditor.UIElements;
@@ -41,7 +40,6 @@ public class Bullet : MonoBehaviour
       timeModif = newTineModif.Value;
     }
     transform.position += MoveDirection * speed * timeModif * Time.deltaTime;
-    //transform.localScale = MoveDirection * scale;
   }
 
   private void OnTriggerEnter2D(Collider2D collision)
@@ -54,7 +52,6 @@ public class Bullet : MonoBehaviour
       MoveDirection = Vector3.zero;
       if (ParticlesOn) { hitParticles.SetActive(true); }
       PlayHitSound();
-      // ShakeScreenLight();
 
       Destroy(gameObject, 1);
     }

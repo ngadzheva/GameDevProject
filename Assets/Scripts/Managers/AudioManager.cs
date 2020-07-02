@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using static JuiceUIManager;
 
 public class AudioManager : MonoBehaviour {
 
@@ -15,6 +14,10 @@ public class AudioManager : MonoBehaviour {
 
     public static void PlayHitSound() {
         instance.hitSound.Play();
+    }
+
+    public static void PlayGunfireSound() {
+        instance.gunFireSound.Play();
     }
 
     public static void PlayDeathSound() {

@@ -41,18 +41,10 @@ public class Enemy : MonoBehaviour
 
     Vector3 VectorToTarget = (targetPosition - transform.position).normalized;
     transform.position += VectorToTarget * Time.deltaTime * speed * timeModif;
-    //transform.right = VectorToTarget;
   }
 
   public void Shoot()
   {
-    //Bullet bulletInstance = Instantiate(bullet,
-    //    bulletSpawnLocation.position,
-    //    Quaternion.identity).GetComponent<Bullet>();
-
-    //bulletInstance.MoveDirection = (bulletSpawnLocation.position - transform.position).normalized;
-
-    //Destroy(bulletInstance.gameObject, 3);
     gun.Shoot();
   }
 
