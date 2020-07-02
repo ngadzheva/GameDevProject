@@ -40,7 +40,6 @@ public class EnemySpawner : MonoBehaviour
 
       yield return new WaitForSeconds(1f / spawnRate / timeModif);
 
-
       RectTransform spawningRect = spawningArea.GetComponent<RectTransform>();
 
 
