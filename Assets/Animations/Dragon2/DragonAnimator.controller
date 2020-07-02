@@ -40,7 +40,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 8363496617486007697}
   - {fileID: 5418602808574183021}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -2633234191147728970}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -124,6 +125,18 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &-2633234191147728970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86c4fa61ad5cbe4698c72aaaaac00d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1107 &-2503055910908184836
 AnimatorStateMachine:
   serializedVersion: 5
@@ -278,9 +291,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsDying
     m_EventTreshold: 0
-  - m_ConditionMode: 3
-    m_ConditionEvent: Health
-    m_EventTreshold: -1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7592130633915906002}
   m_Solo: 0
