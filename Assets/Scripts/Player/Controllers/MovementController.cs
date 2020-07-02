@@ -28,6 +28,8 @@ public class MovementController : MonoBehaviour
   private new Rigidbody2D rigidbody;
   private Animator animator;
   private SpriteRenderer spriteRenderer;
+
+  private PlayerGun playerGun;
   public AmmoType playerAmmoType;
 
   void Start()
@@ -35,8 +37,16 @@ public class MovementController : MonoBehaviour
     rigidbody = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
     spriteRenderer = transform.GetComponent<SpriteRenderer>();
-    PlayerGun playerGun = transform.Find("Weapon").GetComponent<PlayerGun>();
-    playerAmmoType = playerGun.ammoType;
+    playerGun = transform.Find("Weapon").GetComponent<PlayerGun>();
+
+    if (playerGun == null)
+    {
+      Debug.LogError("No player gun found");
+    }
+    else
+    {
+      playerAmmoType = playerGun.ammoType;
+    }
   }
 
   private void FixedUpdate()
@@ -44,9 +54,6 @@ public class MovementController : MonoBehaviour
     ResolveLookDirection();
     Move();
     LookAtMouse();
-
-    PlayerGun playerGun = transform.Find("Weapon").GetComponent<PlayerGun>();
-    playerAmmoType = playerGun.ammoType;
 
     if (Input.GetKeyDown(fireKey) && HasAmmo(playerAmmoType) && !animator.GetBool("IsDying"))
     {
@@ -105,14 +112,21 @@ public class MovementController : MonoBehaviour
   private void LookAtMouse()
   {
     weapon = transform.Find("Weapon").gameObject;
-    Vector3 screenMousePosition = new Vector3(Input.mousePosition.x,
+    if (weapon == null)
+    {
+      Debug.LogError("No weapon found");
+    }
+    else
+    {
+      Vector3 screenMousePosition = new Vector3(Input.mousePosition.x,
                                               Input.mousePosition.y,
                                               -Camera.main.transform.position.z);
-    Vector3 mousePosition = Camera.main.ScreenToWorldPoint(screenMousePosition);
-    mousePosition.z = 0;
+      Vector3 mousePosition = Camera.main.ScreenToWorldPoint(screenMousePosition);
+      mousePosition.z = 0;
 
-    Vector3 vectorToMouse = (mousePosition - weapon.transform.position).normalized;
-    weapon.transform.right = vectorToMouse;
+      Vector3 vectorToMouse = (mousePosition - weapon.transform.position).normalized;
+      weapon.transform.right = vectorToMouse;
+    }
   }
 
   private Vector3 CalculateVelocity()

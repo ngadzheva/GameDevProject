@@ -45,7 +45,14 @@ public class Enemy : MonoBehaviour
 
   public void Shoot()
   {
-    gun.Shoot();
+    if (gun == null)
+    {
+      Debug.LogError("No gun found");
+    }
+    else
+    {
+      gun.Shoot();
+    }
   }
 
   private void LookAtPlayer()
