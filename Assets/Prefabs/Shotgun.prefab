@@ -15,8 +15,9 @@ MonoBehaviour:
   bullet: {fileID: 8779559180642315373, guid: ce30bd672744b05438d548ccd79c77aa, type: 3}
   bulletSpawnLocation: {fileID: 6261708507320191155}
   shootRecharge: 0.5
-  bulletLifeInSeconds: 3
+  bulletLifeInSeconds: 10
   listenInput: 1
+  ammoType: 0
   pellets: 3
   distanceInDegrees: 15
 --- !u!1001 &7602992041720549220
