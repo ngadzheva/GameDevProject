@@ -28,26 +28,33 @@ public class AIMoveNearPlayer : StateMachineBehaviour
 
   override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
   {
-    Vector3 vectorToPlayer = player.position - animator.transform.position;
-    float distanceToPlayer = vectorToPlayer.magnitude;
-
-    if (distanceToPlayer > wantedDistanceToPlayer)
+    if (player == null)
     {
-      enemyController.MoveToPosition(player.position);
+      Debug.LogError("No player found");
     }
-
-    float timeModif = 1f;
-    float? newTineModif = TimeModif?.Invoke();
-    if (newTineModif.HasValue)
+    else
     {
-      timeModif = newTineModif.Value;
-    }
+      Vector3 vectorToPlayer = player.position - animator.transform.position;
+      float distanceToPlayer = vectorToPlayer.magnitude;
 
-    float currTime = Time.time;
-    if (currTime - lastTimeShoot > enemyController.shootRecharge / timeModif)
-    {
-      animator.SetTrigger("ShouldAttack");
-      lastTimeShoot = currTime;
+      if (distanceToPlayer > wantedDistanceToPlayer)
+      {
+        enemyController.MoveToPosition(player.position);
+      }
+
+      float timeModif = 1f;
+      float? newTineModif = TimeModif?.Invoke();
+      if (newTineModif.HasValue)
+      {
+        timeModif = newTineModif.Value;
+      }
+
+      float currTime = Time.time;
+      if (currTime - lastTimeShoot > enemyController.shootRecharge / timeModif)
+      {
+        animator.SetTrigger("ShouldAttack");
+        lastTimeShoot = currTime;
+      }
     }
   }
 }

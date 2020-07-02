@@ -50,22 +50,38 @@ public class Enemy : MonoBehaviour
 
   private void LookAtPlayer()
   {
-    SpriteRenderer spriteRenderer = transform.GetComponent<SpriteRenderer>();
-    if ((player.position - transform.position).normalized.x < 0)
+    if (player == null)
     {
-      spriteRenderer.flipX = true;
+      Debug.LogError("No player found");
     }
     else
     {
-      spriteRenderer.flipX = false;
+      SpriteRenderer spriteRenderer = transform.GetComponent<SpriteRenderer>();
+
+      if ((player.position - transform.position).normalized.x < 0)
+      {
+        spriteRenderer.flipX = true;
+      }
+      else
+      {
+        spriteRenderer.flipX = false;
+      }
     }
   }
 
   private void AimAtPlayer()
   {
-    Transform weaponTransform = transform.Find("Weapon");
 
-    Vector3 vectorToPlayer = (player.position - weaponTransform.position).normalized;
-    weaponTransform.right = vectorToPlayer;
+    if (player == null)
+    {
+      Debug.LogError("No player found");
+    }
+    else
+    {
+      Transform weaponTransform = transform.Find("Weapon");
+      Vector3 vectorToPlayer = (player.position - weaponTransform.position).normalized;
+      weaponTransform.right = vectorToPlayer;
+    }
+
   }
 }
