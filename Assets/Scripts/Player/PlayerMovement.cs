@@ -94,7 +94,6 @@ public class PlayerMovement : MonoBehaviour
     {
       animator.SetTrigger("IsDashingNoTween");
     }
-    PlayDashSound();
     OnPlayerDash?.Invoke();
   }
 

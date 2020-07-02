@@ -15,6 +15,7 @@ TagManager:
   - Bullet
   - Bullet1
   - Bullet2
+  - UI
   layers:
   - Default
   - TransparentFX
